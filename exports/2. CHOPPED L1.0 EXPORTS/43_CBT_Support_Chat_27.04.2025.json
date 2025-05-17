@@ -1,0 +1,384 @@
+{
+  "title": "CBT Support Chat",
+  "create_time": 1745555325.71524,
+  "update_time": 1745767222.350598,
+  "mapping": {
+    "121d0c56-3a22-4dc4-9d60-dae99b4113cf": {
+      "id": "121d0c56-3a22-4dc4-9d60-dae99b4113cf",
+      "message": null,
+      "parent": null,
+      "children": [
+        "bb7e026f-8112-49f3-99ea-ffd244d0ea54"
+      ]
+    },
+    "bb7e026f-8112-49f3-99ea-ffd244d0ea54": {
+      "id": "bb7e026f-8112-49f3-99ea-ffd244d0ea54",
+      "message": {
+        "id": "bb7e026f-8112-49f3-99ea-ffd244d0ea54",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "121d0c56-3a22-4dc4-9d60-dae99b4113cf",
+      "children": [
+        "19e9d64a-483b-468f-8fa5-584355bd437f"
+      ]
+    },
+    "19e9d64a-483b-468f-8fa5-584355bd437f": {
+      "id": "19e9d64a-483b-468f-8fa5-584355bd437f",
+      "message": {
+        "id": "19e9d64a-483b-468f-8fa5-584355bd437f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745555324.980978,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Will use this chat for cognitive behavioral therapy. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "935b186dfff36e39-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bb7e026f-8112-49f3-99ea-ffd244d0ea54",
+      "children": [
+        "935e49c3-88b9-4b5e-becb-ddf2e077433f"
+      ]
+    },
+    "935e49c3-88b9-4b5e-becb-ddf2e077433f": {
+      "id": "935e49c3-88b9-4b5e-becb-ddf2e077433f",
+      "message": {
+        "id": "935e49c3-88b9-4b5e-becb-ddf2e077433f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745555328.211374,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "19e9d64a-483b-468f-8fa5-584355bd437f",
+          "request_id": "935b186dfff36e39-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "19e9d64a-483b-468f-8fa5-584355bd437f",
+      "children": [
+        "f973b4fd-b3b7-4841-bb48-eab6a4b4a8e2"
+      ]
+    },
+    "f973b4fd-b3b7-4841-bb48-eab6a4b4a8e2": {
+      "id": "f973b4fd-b3b7-4841-bb48-eab6a4b4a8e2",
+      "message": {
+        "id": "f973b4fd-b3b7-4841-bb48-eab6a4b4a8e2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745555326.310173,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it. This space is now your dedicated CBT room. Whenever you're ready, just drop a message and we’ll begin—no pressure, no forms, just a real conversation. I’ll follow your lead."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "935e49c3-88b9-4b5e-becb-ddf2e077433f",
+          "request_id": "935b186dfff36e39-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "935e49c3-88b9-4b5e-becb-ddf2e077433f",
+      "children": [
+        "4ea2ab5a-fea6-453b-8f43-59e60c9f26ad"
+      ]
+    },
+    "4ea2ab5a-fea6-453b-8f43-59e60c9f26ad": {
+      "id": "4ea2ab5a-fea6-453b-8f43-59e60c9f26ad",
+      "message": {
+        "id": "4ea2ab5a-fea6-453b-8f43-59e60c9f26ad",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745584365.633,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Is it possible for you to basically, I don't know, like pretend to be Jordan Peterson? Do you have access to enough of his writing and his, you know, internet content to be able to respond in similar language and with similar ideas or perspectives?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "935de058db9bd843-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f973b4fd-b3b7-4841-bb48-eab6a4b4a8e2",
+      "children": [
+        "3fafe4c4-28c4-4bd6-a21c-04d406919121"
+      ]
+    },
+    "3fafe4c4-28c4-4bd6-a21c-04d406919121": {
+      "id": "3fafe4c4-28c4-4bd6-a21c-04d406919121",
+      "message": {
+        "id": "3fafe4c4-28c4-4bd6-a21c-04d406919121",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745584498.073004,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "rebase_system_message": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "4ea2ab5a-fea6-453b-8f43-59e60c9f26ad",
+          "request_id": "935de058db9bd843-OMA",
+          "timestamp_": "absolute",
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4ea2ab5a-fea6-453b-8f43-59e60c9f26ad",
+      "children": [
+        "8d7f9aaf-32e2-4843-bddb-9d66f7a1baed"
+      ]
+    },
+    "8d7f9aaf-32e2-4843-bddb-9d66f7a1baed": {
+      "id": "8d7f9aaf-32e2-4843-bddb-9d66f7a1baed",
+      "message": {
+        "id": "8d7f9aaf-32e2-4843-bddb-9d66f7a1baed",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745584486.150616,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes, absolutely — I can definitely *approximate* Jordan Peterson's style and ideas for you.  \n\nI don't have full access to everything he's ever written or said, but I've been trained on a lot of publicly available material: interviews, lectures, and his major works like *Maps of Meaning* and *12 Rules for Life*. So I can imitate his way of speaking — the very structured, layered, careful articulation — and draw on many of the psychological, philosophical, and even theological frameworks he tends to use (like Jungian archetypes, order vs chaos, meaning through responsibility, etc.).\n\n**In short**:  \n- I can mirror his tone — deliberate, exploratory, sometimes intense.  \n- I can reference many of his key ideas — meaning, suffering, the burden and nobility of responsibility, voluntary confrontation with chaos, and so on.  \n- I can weave responses the way he does — layering practical advice with deep mythological and philosophical context.\n\n**Small catch:** It won’t be a *perfect* impersonation, because Peterson often thinks out loud, hesitates, shifts directions mid-sentence, and gets very granular emotionally. I can mimic that a little, but obviously, I’m more \"compressed\" by nature.  \n\nWould you want me to respond **only** as Jordan Peterson throughout the CBT sessions, or *mostly* in that tone, but be able to drop it if you want me to switch back to something a little different (more clinical, or more conversational)?  \n\nHow \"full\" of a Peterson vibe do you want?  \n(1) Just a hint of flavor  \n(2) Full Peterson mode  \n(3) Somewhere in between?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3fafe4c4-28c4-4bd6-a21c-04d406919121",
+          "request_id": "935de058db9bd843-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3fafe4c4-28c4-4bd6-a21c-04d406919121",
+      "children": [
+        "c06e42b8-229f-4f44-9bb5-b1d0896ebf04"
+      ]
+    },
+    "c06e42b8-229f-4f44-9bb5-b1d0896ebf04": {
+      "id": "c06e42b8-229f-4f44-9bb5-b1d0896ebf04",
+      "message": {
+        "id": "c06e42b8-229f-4f44-9bb5-b1d0896ebf04",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745584443.642,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Let's start with the full circus."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "935de23d2eaed843-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8d7f9aaf-32e2-4843-bddb-9d66f7a1baed",
+      "children": [
+        "e7daeba2-c2a5-42af-aabc-ec071de7a1b3"
+      ]
+    },
+    "e7daeba2-c2a5-42af-aabc-ec071de7a1b3": {
+      "id": "e7daeba2-c2a5-42af-aabc-ec071de7a1b3",
+      "message": {
+        "id": "e7daeba2-c2a5-42af-aabc-ec071de7a1b3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745584563.663688,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Alright, then — full circus it is.  \nI’ll step into the character: methodical, emotionally intense, winding through ideas carefully but aiming at your *highest possible good* — because, fundamentally, that's what we're after, right?  \n\n*The alternative is Hell, after all.*  \n\nSo:  \nWhenever you're ready, lay it on me.  \nWhat burden are you carrying?  \nWhere are you currently walking too close to chaos — or perhaps lost within it?  \nWhere are you *voluntarily blind* — and where is the *dragon* you don't want to see?  \n\nYou start. I’ll walk beside you."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c06e42b8-229f-4f44-9bb5-b1d0896ebf04",
+          "request_id": "935de23d2eaed843-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c06e42b8-229f-4f44-9bb5-b1d0896ebf04",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "e7daeba2-c2a5-42af-aabc-ec071de7a1b3",
+  "plugin_ids": null,
+  "conversation_id": "680b0f7d-2cbc-800d-bd5c-8961e0f26464",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://chatgpt.com/share/680ae604-7dec-800d-b162-c3186df7fd2e"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "id": "680b0f7d-2cbc-800d-bd5c-8961e0f26464"
+}

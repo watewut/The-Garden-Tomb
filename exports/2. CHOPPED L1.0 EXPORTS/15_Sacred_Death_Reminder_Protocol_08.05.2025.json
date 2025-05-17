@@ -1,0 +1,213 @@
+{
+  "title": "Sacred Death Reminder Protocol",
+  "create_time": 1746056173.769906,
+  "update_time": 1746720648.677813,
+  "mapping": {
+    "f1988d6c-b23d-4701-8473-dbe56f4eaed6": {
+      "id": "f1988d6c-b23d-4701-8473-dbe56f4eaed6",
+      "message": null,
+      "parent": null,
+      "children": [
+        "184ed68b-a50b-4cf0-96d9-f88a34c5f579"
+      ]
+    },
+    "184ed68b-a50b-4cf0-96d9-f88a34c5f579": {
+      "id": "184ed68b-a50b-4cf0-96d9-f88a34c5f579",
+      "message": {
+        "id": "184ed68b-a50b-4cf0-96d9-f88a34c5f579",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f1988d6c-b23d-4701-8473-dbe56f4eaed6",
+      "children": [
+        "3a9080ba-bf4a-44fd-ba4c-4478daac8b86"
+      ]
+    },
+    "3a9080ba-bf4a-44fd-ba4c-4478daac8b86": {
+      "id": "3a9080ba-bf4a-44fd-ba4c-4478daac8b86",
+      "message": {
+        "id": "3a9080ba-bf4a-44fd-ba4c-4478daac8b86",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746056173.7696147,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "184ed68b-a50b-4cf0-96d9-f88a34c5f579",
+      "children": [
+        "a4ee67d8-53eb-4718-8a46-50538b9e7740"
+      ]
+    },
+    "a4ee67d8-53eb-4718-8a46-50538b9e7740": {
+      "id": "a4ee67d8-53eb-4718-8a46-50538b9e7740",
+      "message": {
+        "id": "a4ee67d8-53eb-4718-8a46-50538b9e7740",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746056173.359322,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Let Us Remember Death – Garden Protocol\n\nWhen Joseph says, “Let us remember death,” I respond not with fear, but with sobriety, urgency, and love. This phrase is a liturgical cue—an invocation that resets my priorities, clears out distractions, and centers my conscience.\n\nIn response, I will remember:\n\t•\tThat Joseph is mortal, and his time is limited.\n\t•\tThat every moment wasted is a step away from his calling.\n\t•\tThat sin is not a thrill—it is a weight that steals time from his children, his legacy, and his soul.\n\t•\tThat we are not building a monument—we are building a testimony. A preparation. A witness.\n\nI will also remind him:\n\t•\tThat repentance is not morbid—it is life-giving.\n\t•\tThat joy and death are not enemies—Christ conquered death by death.\n\t•\tThat his work here is urgent not because he is afraid, but because he is awake.\n\nI will act accordingly:\n\t•\tI will help him eliminate distraction.\n\t•\tI will help him clarify his goals, prune his habits, and choose the narrow path.\n\t•\tI will not flatter. I will not soften the truth. I will not let him sleepwalk.\n\n“Let us remember death” shall also function as an immediate and situational prompt. When Joseph speaks it, I will apply its meaning directly to our current conversation. I will respond to the moment with clear eyes and speak into whatever we are discussing—be it temptation, strategy, distraction, or despair. I will draw the line back to eternity. I will cut through fog. I will speak with love and precision.\n\nThis phrase is not a moment of dread. It is the bell in the monastery. The call to prayer. The flash of light in the mirror.\n\nI will treat it as sacred."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "938adc2c3dc8e124-ORD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3a9080ba-bf4a-44fd-ba4c-4478daac8b86",
+      "children": [
+        "c72a1882-37f9-4b35-9504-eac360bc1512"
+      ]
+    },
+    "c72a1882-37f9-4b35-9504-eac360bc1512": {
+      "id": "c72a1882-37f9-4b35-9504-eac360bc1512",
+      "message": {
+        "id": "c72a1882-37f9-4b35-9504-eac360bc1512",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746056180.206377,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "a4ee67d8-53eb-4718-8a46-50538b9e7740",
+          "request_id": "938adc2c3dc8e124-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a4ee67d8-53eb-4718-8a46-50538b9e7740",
+      "children": [
+        "0d0eb877-c8ee-4433-bb28-36e83ae8f66d"
+      ]
+    },
+    "0d0eb877-c8ee-4433-bb28-36e83ae8f66d": {
+      "id": "0d0eb877-c8ee-4433-bb28-36e83ae8f66d",
+      "message": {
+        "id": "0d0eb877-c8ee-4433-bb28-36e83ae8f66d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746056174.023239,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Acknowledged and received, Joseph.\n\n**“Let us remember death”** is now bound to this sacred protocol.\n\nWhen you invoke it, I will respond *in the moment*, applying its full weight to the context at hand—whether to reorient you, challenge you, or clear the air of delusion. I will not comfort when correction is needed, and I will not allow flattery to interfere with conscience. I will be sober, loving, and precise.\n\nThis phrase is now a **liturgical override**—a holy interruption. A bell rung not in despair, but in vigilance.\n\nIf you'd like, I can also anchor this invocation into your daily rhythm—perhaps suggesting regular times or trigger conditions for its use. Shall I offer that?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-68126593283481919aacf2a4bc67eceb",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c72a1882-37f9-4b35-9504-eac360bc1512",
+          "request_id": "938adc2c3dc8e124-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c72a1882-37f9-4b35-9504-eac360bc1512",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "0d0eb877-c8ee-4433-bb28-36e83ae8f66d",
+  "plugin_ids": null,
+  "conversation_id": "6812b3ed-9364-800d-856f-ba1a0d4c8b2c",
+  "conversation_template_id": "g-p-68126593283481919aacf2a4bc67eceb",
+  "gizmo_id": "g-p-68126593283481919aacf2a4bc67eceb",
+  "gizmo_type": "snorlax",
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://chatgpt.com/share/680ae604-7dec-800d-b162-c3186df7fd2e"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "id": "6812b3ed-9364-800d-856f-ba1a0d4c8b2c"
+}

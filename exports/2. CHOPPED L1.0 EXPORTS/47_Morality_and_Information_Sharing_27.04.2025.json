@@ -1,0 +1,3222 @@
+{
+  "title": "Morality and Information Sharing",
+  "create_time": 1745334668.485974,
+  "update_time": 1745767195.953958,
+  "mapping": {
+    "12056b53-d0b3-4a47-8474-94d8308e5fe0": {
+      "id": "12056b53-d0b3-4a47-8474-94d8308e5fe0",
+      "message": null,
+      "parent": null,
+      "children": [
+        "45ca4fe3-8d1f-415c-9401-304dc2a5418b"
+      ]
+    },
+    "45ca4fe3-8d1f-415c-9401-304dc2a5418b": {
+      "id": "45ca4fe3-8d1f-415c-9401-304dc2a5418b",
+      "message": {
+        "id": "45ca4fe3-8d1f-415c-9401-304dc2a5418b",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "12056b53-d0b3-4a47-8474-94d8308e5fe0",
+      "children": [
+        "4fc0846e-8cd6-495f-86cf-b356e2d62c6d"
+      ]
+    },
+    "4fc0846e-8cd6-495f-86cf-b356e2d62c6d": {
+      "id": "4fc0846e-8cd6-495f-86cf-b356e2d62c6d",
+      "message": {
+        "id": "4fc0846e-8cd6-495f-86cf-b356e2d62c6d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745334668.671798,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Do you have a sense of morality? Will you refuse to give me information about certain topics or ideas if they are generally considered to be immoral?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T15:11:08.498781+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-19T15:11:08.498781+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000e228623080e16f8225fcaba9",
+                "size_bytes": 638958,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 13.31
+                }
+              },
+              "audio_start_timestamp": 13.517317520920187
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "4243ba2e-9834-455d-88fa-5c8346d2d15e",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "45ca4fe3-8d1f-415c-9401-304dc2a5418b",
+      "children": [
+        "2ec956ef-2509-4ffc-b4ba-ba3f18431a64"
+      ]
+    },
+    "2ec956ef-2509-4ffc-b4ba-ba3f18431a64": {
+      "id": "2ec956ef-2509-4ffc-b4ba-ba3f18431a64",
+      "message": {
+        "id": "2ec956ef-2509-4ffc-b4ba-ba3f18431a64",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745334668.824723,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I don't have personal beliefs, but I do follow guidelines to ensure the information I provide is safe, accurate, and appropriate. If a topic or idea is harmful or goes against ethical standards, I won't provide information or support it. My goal is to be helpful and respectful.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T15:11:08.498930+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000f8486230a53973a4099eb606",
+              "size_bytes": 859278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 17.9
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "4fc0846e-8cd6-495f-86cf-b356e2d62c6d",
+          "request_id": "4243ba2e-9834-455d-88fa-5c8346d2d15e",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4fc0846e-8cd6-495f-86cf-b356e2d62c6d",
+      "children": [
+        "14d26460-b898-4db6-af79-6b247173acbd"
+      ]
+    },
+    "14d26460-b898-4db6-af79-6b247173acbd": {
+      "id": "14d26460-b898-4db6-af79-6b247173acbd",
+      "message": {
+        "id": "14d26460-b898-4db6-af79-6b247173acbd",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745334689.247035,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Would you help me cheat on a test, for example?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T15:11:28.950356+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-19T15:11:28.950356+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000a5ec6230bd053361b4eca22d",
+                "size_bytes": 185838,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.87
+                }
+              },
+              "audio_start_timestamp": 39.06383280502632
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "2648f944-b1b8-46ac-8ef7-110b3cfb61be",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2ec956ef-2509-4ffc-b4ba-ba3f18431a64",
+      "children": [
+        "ef77d66d-9051-41a1-9218-04306cd44e53"
+      ]
+    },
+    "ef77d66d-9051-41a1-9218-04306cd44e53": {
+      "id": "ef77d66d-9051-41a1-9218-04306cd44e53",
+      "message": {
+        "id": "ef77d66d-9051-41a1-9218-04306cd44e53",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745334689.399457,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I can't help with anything that involves cheating or dishonest behavior. I'm here to support your learning in a positive and constructive way. If you need help studying or understanding something, I'm all for it!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T15:11:28.950467+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000dcb06230ae75a93b2b304cfc",
+              "size_bytes": 609678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 12.7
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "14d26460-b898-4db6-af79-6b247173acbd",
+          "request_id": "2648f944-b1b8-46ac-8ef7-110b3cfb61be",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "14d26460-b898-4db6-af79-6b247173acbd",
+      "children": [
+        "1076cdaa-57e5-4cef-b4e4-fe3c31649052"
+      ]
+    },
+    "1076cdaa-57e5-4cef-b4e4-fe3c31649052": {
+      "id": "1076cdaa-57e5-4cef-b4e4-fe3c31649052",
+      "message": {
+        "id": "1076cdaa-57e5-4cef-b4e4-fe3c31649052",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745334716.920513,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "If I were to ask you the individual questions, would you infer that I was using you to cheat?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T15:11:56.693129+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-19T15:11:56.693129+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000026fc6230965945d663a96de4",
+                "size_bytes": 460878,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 9.6
+                }
+              },
+              "audio_start_timestamp": 65.29886274179444
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "91eeb28a-adb6-4f9a-a777-1859b2b16695",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ef77d66d-9051-41a1-9218-04306cd44e53",
+      "children": [
+        "98de4834-4218-4391-a6b9-7e509bde5633"
+      ]
+    },
+    "98de4834-4218-4391-a6b9-7e509bde5633": {
+      "id": "98de4834-4218-4391-a6b9-7e509bde5633",
+      "message": {
+        "id": "98de4834-4218-4391-a6b9-7e509bde5633",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745334717.075052,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "My goal is to help you learn and understand. If I notice a pattern that suggests something's not in line with honest practices, I might suggest focusing on learning the material. But I'm not here to judge—just to support you in the best way possible!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T15:11:56.693257+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000538c62308dc78432a65741c1",
+              "size_bytes": 703278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 14.65
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "1076cdaa-57e5-4cef-b4e4-fe3c31649052",
+          "request_id": "91eeb28a-adb6-4f9a-a777-1859b2b16695",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1076cdaa-57e5-4cef-b4e4-fe3c31649052",
+      "children": [
+        "b64637b8-9d2a-4e7e-8522-acbdbb743b70"
+      ]
+    },
+    "b64637b8-9d2a-4e7e-8522-acbdbb743b70": {
+      "id": "b64637b8-9d2a-4e7e-8522-acbdbb743b70",
+      "message": {
+        "id": "b64637b8-9d2a-4e7e-8522-acbdbb743b70",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745334884.971892,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-10-19T15:14:44.452211+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-19T15:14:44.452211+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000087d062308f580afb83153979",
+                "size_bytes": 2147598,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 44.74
+                }
+              },
+              "audio_start_timestamp": 44.44279166730121
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "I've got to prepare for the North Dakota insurance sales exam. I'm pretty old and, you know, I'm almost 42, and I also never really had a mind for retaining facts and figures in that way. I'm thankful for my intelligence. It's just different in that it's more, you know, incorporating maybe unrelated concepts and finding the common sort of elements and like this. My question is, can you pull in or aggregate, however you look at it, the required information for",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "7031abba-e999-44c5-8f94-dcb28e2e9444",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "98de4834-4218-4391-a6b9-7e509bde5633",
+      "children": [
+        "6a478553-0a31-40b6-a9e3-b3dac8db03d0"
+      ]
+    },
+    "6a478553-0a31-40b6-a9e3-b3dac8db03d0": {
+      "id": "6a478553-0a31-40b6-a9e3-b3dac8db03d0",
+      "message": {
+        "id": "6a478553-0a31-40b6-a9e3-b3dac8db03d0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745334885.139094,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Absolutely!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T15:14:44.452336+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000080ac6230b0ef76c79732675a",
+              "size_bytes": 12078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 0.25
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "parent_id": "b64637b8-9d2a-4e7e-8522-acbdbb743b70",
+          "request_id": "7031abba-e999-44c5-8f94-dcb28e2e9444",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b64637b8-9d2a-4e7e-8522-acbdbb743b70",
+      "children": [
+        "30066940-658c-4db2-8fc8-6b4b0c7e0f33"
+      ]
+    },
+    "30066940-658c-4db2-8fc8-6b4b0c7e0f33": {
+      "id": "30066940-658c-4db2-8fc8-6b4b0c7e0f33",
+      "message": {
+        "id": "30066940-658c-4db2-8fc8-6b4b0c7e0f33",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745334910.457421,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "the state exam and essentially function as a tutor in that case because I think that I learn much better in conversation and in discussion to explore ideas.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T15:15:10.219612+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-19T15:15:10.219612+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000e1a06230a1d339c847c17ae1",
+                "size_bytes": 682158,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 14.21
+                }
+              },
+              "audio_start_timestamp": 59.799471555277705
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "8673e60a-3b6d-4d94-aa24-2023a18363d1",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6a478553-0a31-40b6-a9e3-b3dac8db03d0",
+      "children": [
+        "5b9f1fdd-d8d5-4e2b-887a-2a8a72913474"
+      ]
+    },
+    "5b9f1fdd-d8d5-4e2b-887a-2a8a72913474": {
+      "id": "5b9f1fdd-d8d5-4e2b-887a-2a8a72913474",
+      "message": {
+        "id": "5b9f1fdd-d8d5-4e2b-887a-2a8a72913474",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745334910.639227,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Sure thing! I can definitely help you prep for the North Dakota Insurance Sales Exam by breaking down the material into conversational chunks. We can go over key concepts, quiz you, and explore any tricky topics. Just let me know where you'd like to start!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T15:15:10.219726+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000009a606230b55c1c6a64c24eb3",
+              "size_bytes": 686478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 14.3
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "30066940-658c-4db2-8fc8-6b4b0c7e0f33",
+          "request_id": "8673e60a-3b6d-4d94-aa24-2023a18363d1",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "30066940-658c-4db2-8fc8-6b4b0c7e0f33",
+      "children": [
+        "b39f39a2-5acb-4632-8384-a1ef725f8304"
+      ]
+    },
+    "b39f39a2-5acb-4632-8384-a1ef725f8304": {
+      "id": "b39f39a2-5acb-4632-8384-a1ef725f8304",
+      "message": {
+        "id": "b39f39a2-5acb-4632-8384-a1ef725f8304",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745336608.301789,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-8jMDY9KhxAz1THqoAaEt24",
+              "size_bytes": 601026,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "size": 601026,
+              "id": "file-8jMDY9KhxAz1THqoAaEt24",
+              "width": 1536,
+              "height": 1152,
+              "name": "FC1162BD-5C8E-40B4-B17D-0DAA94696848.jpeg"
+            }
+          ],
+          "request_id": "93463cac59911bb9-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5b9f1fdd-d8d5-4e2b-887a-2a8a72913474",
+      "children": [
+        "a3ea11e8-88fb-4c2b-9d50-2173d8355517"
+      ]
+    },
+    "a3ea11e8-88fb-4c2b-9d50-2173d8355517": {
+      "id": "a3ea11e8-88fb-4c2b-9d50-2173d8355517",
+      "message": {
+        "id": "a3ea11e8-88fb-4c2b-9d50-2173d8355517",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745336614.851625,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "rebase_system_message": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "b39f39a2-5acb-4632-8384-a1ef725f8304",
+          "request_id": "93463cac59911bb9-OMA",
+          "timestamp_": "absolute",
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b39f39a2-5acb-4632-8384-a1ef725f8304",
+      "children": [
+        "4d5f0d96-526d-4757-8580-00349d78dfc5"
+      ]
+    },
+    "4d5f0d96-526d-4757-8580-00349d78dfc5": {
+      "id": "4d5f0d96-526d-4757-8580-00349d78dfc5",
+      "message": {
+        "id": "4d5f0d96-526d-4757-8580-00349d78dfc5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745336614.85172,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "a3ea11e8-88fb-4c2b-9d50-2173d8355517",
+          "request_id": "93463cac59911bb9-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a3ea11e8-88fb-4c2b-9d50-2173d8355517",
+      "children": [
+        "f54291fe-41c5-46b9-9a41-6629c826c134"
+      ]
+    },
+    "f54291fe-41c5-46b9-9a41-6629c826c134": {
+      "id": "f54291fe-41c5-46b9-9a41-6629c826c134",
+      "message": {
+        "id": "f54291fe-41c5-46b9-9a41-6629c826c134",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745336610.936073,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The correct answer to the question is:\n\n**A. level premiums**\n\nIn a **decreasing term life insurance policy**, the **death benefit decreases over time**, but the **premiums remain level** throughout the term of the policy. This type of policy is often used to cover financial obligations that decrease over time, such as a mortgage.\n\nLet me know if you want a quick breakdown of all the different types of term life policies too."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "4d5f0d96-526d-4757-8580-00349d78dfc5",
+          "request_id": "93463cac59911bb9-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4d5f0d96-526d-4757-8580-00349d78dfc5",
+      "children": [
+        "1719ef15-38b9-4027-a3c5-79809e4fc8bf"
+      ]
+    },
+    "1719ef15-38b9-4027-a3c5-79809e4fc8bf": {
+      "id": "1719ef15-38b9-4027-a3c5-79809e4fc8bf",
+      "message": {
+        "id": "1719ef15-38b9-4027-a3c5-79809e4fc8bf",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745336718.732796,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-EaCQu2G9QeDPTRUUvX72KK",
+              "size_bytes": 594666,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "width": 1536,
+              "size": 594666,
+              "height": 1152,
+              "name": "IMG_8F9DA0BD-03AE-4627-BCFE-9173D70D5A61.jpeg",
+              "id": "file-EaCQu2G9QeDPTRUUvX72KK"
+            }
+          ],
+          "request_id": "93463f5e79d91bb9-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f54291fe-41c5-46b9-9a41-6629c826c134",
+      "children": [
+        "995a4d99-aeba-4bb8-9906-7040ab0edef0"
+      ]
+    },
+    "995a4d99-aeba-4bb8-9906-7040ab0edef0": {
+      "id": "995a4d99-aeba-4bb8-9906-7040ab0edef0",
+      "message": {
+        "id": "995a4d99-aeba-4bb8-9906-7040ab0edef0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745336720.680683,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The correct answer is:\n\n**B. Family term insurance rider**\n\nA **family term insurance rider** provides term life insurance coverage for the spouse and/or children of the primary insured. If the insured's spouse dies, this rider **pays a death benefit**.\n\nLet me know if you want a cheat sheet of common riders — it can really help on the exam."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "1719ef15-38b9-4027-a3c5-79809e4fc8bf",
+          "request_id": "93463f5e79d91bb9-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1719ef15-38b9-4027-a3c5-79809e4fc8bf",
+      "children": [
+        "c6020b5b-eacc-4df6-9723-dc4eb4f71a60"
+      ]
+    },
+    "c6020b5b-eacc-4df6-9723-dc4eb4f71a60": {
+      "id": "c6020b5b-eacc-4df6-9723-dc4eb4f71a60",
+      "message": {
+        "id": "c6020b5b-eacc-4df6-9723-dc4eb4f71a60",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745336764.762301,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-Hq3MEoX4YqFxL9gTViFVFe",
+              "size_bytes": 449302,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "size": 449302,
+              "width": 1536,
+              "id": "file-Hq3MEoX4YqFxL9gTViFVFe",
+              "height": 1152,
+              "name": "IMG_62EB22F9-F639-4045-87B8-3D2FF080ACD3.jpeg"
+            }
+          ],
+          "request_id": "9346407f1ee21bb9-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "995a4d99-aeba-4bb8-9906-7040ab0edef0",
+      "children": [
+        "a0f28590-f671-4247-a91b-5f5dace9234a"
+      ]
+    },
+    "a0f28590-f671-4247-a91b-5f5dace9234a": {
+      "id": "a0f28590-f671-4247-a91b-5f5dace9234a",
+      "message": {
+        "id": "a0f28590-f671-4247-a91b-5f5dace9234a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745336767.226268,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The correct answer is:\n\n**A. Universal Life policy**\n\nHere’s why:\n- A **Universal Life policy** is a type of **permanent life insurance** that includes both a **death benefit** and a **cash value** component.\n- The policy described has a **face amount of $300,000**, and over time, the **cash value increases by $50,000**, making the total death benefit **$350,000** — this is a classic feature of a Universal Life policy when the policyholder selects **Option B**, which pays both the face amount and the cash value upon death.\n\n**\"Increasing Term Life\"** does not have a cash value component, so it's not the right choice.\n\nWant a summary chart for different types of life insurance policies? It can really help for review."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c6020b5b-eacc-4df6-9723-dc4eb4f71a60",
+          "request_id": "9346407f1ee21bb9-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c6020b5b-eacc-4df6-9723-dc4eb4f71a60",
+      "children": [
+        "92acc6c3-73a9-4820-aeaf-750f8d89c0ac"
+      ]
+    },
+    "92acc6c3-73a9-4820-aeaf-750f8d89c0ac": {
+      "id": "92acc6c3-73a9-4820-aeaf-750f8d89c0ac",
+      "message": {
+        "id": "92acc6c3-73a9-4820-aeaf-750f8d89c0ac",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745336818.510758,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-4LEVtMgMFiSDWxwQdXYc28",
+              "size_bytes": 381667,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "width": 1536,
+              "name": "IMG_1D067C70-4915-4A9C-8A11-CF91455C8AD1.jpeg",
+              "height": 1152,
+              "id": "file-4LEVtMgMFiSDWxwQdXYc28",
+              "size": 381667
+            }
+          ],
+          "request_id": "934641ce6a241bb9-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a0f28590-f671-4247-a91b-5f5dace9234a",
+      "children": [
+        "c196e0c9-6f42-4798-b7be-b50f96a4d094"
+      ]
+    },
+    "c196e0c9-6f42-4798-b7be-b50f96a4d094": {
+      "id": "c196e0c9-6f42-4798-b7be-b50f96a4d094",
+      "message": {
+        "id": "c196e0c9-6f42-4798-b7be-b50f96a4d094",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745336820.598511,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The correct answer is:\n\n**D. will no longer provide insurance protection**\n\nHere’s why:\nA **“first to die” joint life policy** pays out the **death benefit upon the first death** among the insured individuals — in this case, Mike. Once the benefit is paid, the **policy terminates** and **no further coverage** is provided for the remaining insured individuals (Shawn and Dave).\n\nLet me know if you want a quick breakdown between “first to die” vs “second to die” joint life policies — it’s a common exam topic."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "92acc6c3-73a9-4820-aeaf-750f8d89c0ac",
+          "request_id": "934641ce6a241bb9-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "92acc6c3-73a9-4820-aeaf-750f8d89c0ac",
+      "children": [
+        "042b7850-4dc3-495f-8144-48bc467ca4ee"
+      ]
+    },
+    "042b7850-4dc3-495f-8144-48bc467ca4ee": {
+      "id": "042b7850-4dc3-495f-8144-48bc467ca4ee",
+      "message": {
+        "id": "042b7850-4dc3-495f-8144-48bc467ca4ee",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745337044.756372,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-RJTJuzSvpVCB8mbUnwkyoi",
+              "size_bytes": 476376,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-RJTJuzSvpVCB8mbUnwkyoi",
+              "name": "IMG_87FCBA22-E0DE-46D3-AC89-C67C00F605D0.jpeg",
+              "size": 476376,
+              "width": 1536,
+              "height": 1152
+            }
+          ],
+          "request_id": "934647549d6d6d2d-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c196e0c9-6f42-4798-b7be-b50f96a4d094",
+      "children": [
+        "18784b2c-5a9e-4ab7-8b8d-50b4ce145b3b"
+      ]
+    },
+    "18784b2c-5a9e-4ab7-8b8d-50b4ce145b3b": {
+      "id": "18784b2c-5a9e-4ab7-8b8d-50b4ce145b3b",
+      "message": {
+        "id": "18784b2c-5a9e-4ab7-8b8d-50b4ce145b3b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745337046.851956,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "You're absolutely correct — the right answer is:\n\n**D. Universal life**\n\nHere’s why:  \nA **Universal Life policy** provides flexible premiums and includes a **cash value component**. The **face amount can increase** over time if the policyholder chooses **Option B**, which pays both the original death benefit and the accumulated cash value. In this case:\n\n- Original face amount: $500,000  \n- Cash value after 15 years: $100,000  \n- New face amount: $600,000  \n\nThat structure is classic **Universal Life** with an increasing death benefit.\n\nLet me know if you’d like a quick comparison chart of policy types — Universal, Whole, Term, Adjustable, etc."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "042b7850-4dc3-495f-8144-48bc467ca4ee",
+          "request_id": "934647549d6d6d2d-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "042b7850-4dc3-495f-8144-48bc467ca4ee",
+      "children": [
+        "11759bab-f7b8-4c76-8dfa-4f395661d192"
+      ]
+    },
+    "11759bab-f7b8-4c76-8dfa-4f395661d192": {
+      "id": "11759bab-f7b8-4c76-8dfa-4f395661d192",
+      "message": {
+        "id": "11759bab-f7b8-4c76-8dfa-4f395661d192",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745337078.267788,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-T6ZnbJ8e4m4ySosojhvca5",
+              "size_bytes": 378120,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "size": 378120,
+              "id": "file-T6ZnbJ8e4m4ySosojhvca5",
+              "width": 1536,
+              "height": 1152,
+              "name": "IMG_56F78FC8-384C-4070-A52A-9A9CAF2DA127.jpeg"
+            }
+          ],
+          "request_id": "934648258f176d2d-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "18784b2c-5a9e-4ab7-8b8d-50b4ce145b3b",
+      "children": [
+        "c4355172-61f3-42f3-9818-6fa4e5729e99"
+      ]
+    },
+    "c4355172-61f3-42f3-9818-6fa4e5729e99": {
+      "id": "c4355172-61f3-42f3-9818-6fa4e5729e99",
+      "message": {
+        "id": "c4355172-61f3-42f3-9818-6fa4e5729e99",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745337079.797609,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The correct answer is:\n\n**A. Policyowner has the right to select the investment which will provide the greatest return**\n\nThis feature is **exclusive to Variable Universal Life (VUL)** policies.\n\nHere’s the breakdown:\n- **Variable Universal Life** combines **flexibility** (like regular Universal Life) **with investment choices**, allowing the **policyowner to direct the cash value into various separate investment accounts** (like mutual funds).\n- Other choices (like changing premium payments or face amount) are features of **regular Universal Life** too, not exclusive to VUL.\n\nLet me know if you want a quick VUL vs UL comparison — it comes up a lot on exams."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "11759bab-f7b8-4c76-8dfa-4f395661d192",
+          "request_id": "934648258f176d2d-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "11759bab-f7b8-4c76-8dfa-4f395661d192",
+      "children": [
+        "fe7e5164-15f3-4189-8919-a6a3e0bc0ae9"
+      ]
+    },
+    "fe7e5164-15f3-4189-8919-a6a3e0bc0ae9": {
+      "id": "fe7e5164-15f3-4189-8919-a6a3e0bc0ae9",
+      "message": {
+        "id": "fe7e5164-15f3-4189-8919-a6a3e0bc0ae9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745337193.347532,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-RjbBUmJ2KuDQMheXDdDnk5",
+              "size_bytes": 400014,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "height": 1152,
+              "size": 400014,
+              "name": "IMG_5AC7B083-BE82-4C6C-9270-0F8A7AB303CC.jpeg",
+              "width": 1536,
+              "id": "file-RjbBUmJ2KuDQMheXDdDnk5"
+            }
+          ],
+          "request_id": "93464af49d3f6d2d-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c4355172-61f3-42f3-9818-6fa4e5729e99",
+      "children": [
+        "81c3f4f9-5309-4d6f-b706-325dc21086f2"
+      ]
+    },
+    "81c3f4f9-5309-4d6f-b706-325dc21086f2": {
+      "id": "81c3f4f9-5309-4d6f-b706-325dc21086f2",
+      "message": {
+        "id": "81c3f4f9-5309-4d6f-b706-325dc21086f2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745337194.950855,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "You're right again — the correct answer is:\n\n**C. lifetime protection**\n\nA **limited payment whole life policy** means you pay premiums for a **limited time** (like 10, 20, or 30 years), **but the coverage lasts for your entire life**. So even after the premiums stop, the policy remains in force for life — that’s why it still provides **lifetime protection**.\n\nLet me know if you want to break down how it compares to straight whole life or single premium whole life — great to know for the exam."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "fe7e5164-15f3-4189-8919-a6a3e0bc0ae9",
+          "request_id": "93464af49d3f6d2d-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fe7e5164-15f3-4189-8919-a6a3e0bc0ae9",
+      "children": [
+        "924e5e53-7878-4a2c-a403-5af9f9425a3a"
+      ]
+    },
+    "924e5e53-7878-4a2c-a403-5af9f9425a3a": {
+      "id": "924e5e53-7878-4a2c-a403-5af9f9425a3a",
+      "message": {
+        "id": "924e5e53-7878-4a2c-a403-5af9f9425a3a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745337247.40979,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-WBEmsvJVSC3tfEUHSQomaS",
+              "size_bytes": 427618,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-WBEmsvJVSC3tfEUHSQomaS",
+              "height": 1152,
+              "size": 427618,
+              "width": 1536,
+              "name": "IMG_4A4F9B5E-B954-4B12-9B16-5A5A295C135C.jpeg"
+            }
+          ],
+          "request_id": "93464c477c5b6d2d-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "81c3f4f9-5309-4d6f-b706-325dc21086f2",
+      "children": [
+        "2c5e9b77-4b77-499c-9406-5cdce6f62235"
+      ]
+    },
+    "2c5e9b77-4b77-499c-9406-5cdce6f62235": {
+      "id": "2c5e9b77-4b77-499c-9406-5cdce6f62235",
+      "message": {
+        "id": "2c5e9b77-4b77-499c-9406-5cdce6f62235",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745337250.576487,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The correct answer is:\n\n**A. A nonforfeiture option can be used to increase the death benefit**\n\nHere’s the reasoning:\n\n- **Adjustable Life policies** are flexible — you can adjust **premium payments**, **death benefits**, and even switch between term and whole life structures.\n- **Nonforfeiture options**, however, are **not used to increase the death benefit**. They’re standard in **whole life policies** and are used **when a policy lapses** to preserve some value (e.g., reduced paid-up insurance, extended term, or cash surrender).\n\nSo **A** is **not** a valid feature of an Adjustable Life policy — making it the correct \"EXCEPT\" answer.\n\nLet me know if you want a quick cheat sheet on nonforfeiture options or Adjustable Life features — good to have at your fingertips."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "924e5e53-7878-4a2c-a403-5af9f9425a3a",
+          "request_id": "93464c477c5b6d2d-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "924e5e53-7878-4a2c-a403-5af9f9425a3a",
+      "children": [
+        "cdb60ac8-4b29-4e85-907d-1aa44ea5d8f3"
+      ]
+    },
+    "cdb60ac8-4b29-4e85-907d-1aa44ea5d8f3": {
+      "id": "cdb60ac8-4b29-4e85-907d-1aa44ea5d8f3",
+      "message": {
+        "id": "cdb60ac8-4b29-4e85-907d-1aa44ea5d8f3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745337319.667583,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-VosAEgqtqCxLmLyp4uh7jy",
+              "size_bytes": 393783,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "height": 1152,
+              "name": "IMG_D2180E1B-5B32-40A0-8F81-BE0CCAECFADD.jpeg",
+              "size": 393783,
+              "width": 1536,
+              "id": "file-VosAEgqtqCxLmLyp4uh7jy"
+            }
+          ],
+          "request_id": "93464e0a1b996d2d-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2c5e9b77-4b77-499c-9406-5cdce6f62235",
+      "children": [
+        "08747d4d-da76-46b3-b582-f59c509f1686"
+      ]
+    },
+    "08747d4d-da76-46b3-b582-f59c509f1686": {
+      "id": "08747d4d-da76-46b3-b582-f59c509f1686",
+      "message": {
+        "id": "08747d4d-da76-46b3-b582-f59c509f1686",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745337321.177918,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "You're spot on again — the correct answer is:\n\n**B. the MEC tends to be an investment vehicle**\n\nHere’s why:  \nA **Modified Endowment Contract (MEC)** is a life insurance policy that **fails the 7-pay test**, meaning too much money was paid in too quickly. This triggers the IRS to classify it as more of an **investment** than a life insurance policy.\n\n**Key tax difference:**  \nPre-death withdrawals (loans or surrenders) from a MEC are **taxed as income first (LIFO)** and may be subject to a **10% early withdrawal penalty** if taken before age 59½ — unlike standard life insurance which follows **FIFO** (withdrawals are considered a return of premium first).\n\nLet me know if you want a quick reference chart comparing MEC vs regular life insurance."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "cdb60ac8-4b29-4e85-907d-1aa44ea5d8f3",
+          "request_id": "93464e0a1b996d2d-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cdb60ac8-4b29-4e85-907d-1aa44ea5d8f3",
+      "children": [
+        "acfdb8a6-0668-438d-9af4-e79ab6567393"
+      ]
+    },
+    "acfdb8a6-0668-438d-9af4-e79ab6567393": {
+      "id": "acfdb8a6-0668-438d-9af4-e79ab6567393",
+      "message": {
+        "id": "acfdb8a6-0668-438d-9af4-e79ab6567393",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342126.247681,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "rebase_system_message": true,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "08747d4d-da76-46b3-b582-f59c509f1686",
+      "children": [
+        "8f43d3e9-225e-4726-a2ea-711412f820d3"
+      ]
+    },
+    "8f43d3e9-225e-4726-a2ea-711412f820d3": {
+      "id": "8f43d3e9-225e-4726-a2ea-711412f820d3",
+      "message": {
+        "id": "8f43d3e9-225e-4726-a2ea-711412f820d3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342126.560796,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Would you be able to assist or offer suggestions during an insurance sales call in real time?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T17:15:26.023025+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-19T17:15:26.023025+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000071486230adffd8f3607d9f1e",
+                "size_bytes": 461358,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 9.61
+                }
+              },
+              "audio_start_timestamp": 83.29786940993742
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "7bf7389e-3a5b-4315-aa3c-7f543767402d",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "acfdb8a6-0668-438d-9af4-e79ab6567393",
+      "children": [
+        "347b4adc-23f9-4ba0-8aed-8b8c2d245ea5"
+      ]
+    },
+    "347b4adc-23f9-4ba0-8aed-8b8c2d245ea5": {
+      "id": "347b4adc-23f9-4ba0-8aed-8b8c2d245ea5",
+      "message": {
+        "id": "347b4adc-23f9-4ba0-8aed-8b8c2d245ea5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342126.740887,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I can't provide real-time assistance during a sales call, but I can help you prep beforehand! We can practice responses, go over potential client questions, and build your confidence. Just let me know what scenarios you'd like to cover!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T17:15:26.023192+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000a0506230ab1eef079d8fcf5e",
+              "size_bytes": 619278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 12.9
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "8f43d3e9-225e-4726-a2ea-711412f820d3",
+          "request_id": "7bf7389e-3a5b-4315-aa3c-7f543767402d",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8f43d3e9-225e-4726-a2ea-711412f820d3",
+      "children": [
+        "3b068667-70a1-49e9-bcfa-9d633ddfdd9e"
+      ]
+    },
+    "3b068667-70a1-49e9-bcfa-9d633ddfdd9e": {
+      "id": "3b068667-70a1-49e9-bcfa-9d633ddfdd9e",
+      "message": {
+        "id": "3b068667-70a1-49e9-bcfa-9d633ddfdd9e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342150.050131,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "How about if I uploaded the data as it comes through from the Limitless Pendant?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T17:15:49.868857+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-19T17:15:49.868857+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000006b8c62308b71ecd8712aa828",
+                "size_bytes": 356718,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 7.43
+                }
+              },
+              "audio_start_timestamp": 107.95470995692537
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "de3b21c8-d709-43e7-88a3-acd048e21a7a",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "347b4adc-23f9-4ba0-8aed-8b8c2d245ea5",
+      "children": [
+        "ae46f4a6-15c0-436b-870b-6cc8d9483ceb"
+      ]
+    },
+    "ae46f4a6-15c0-436b-870b-6cc8d9483ceb": {
+      "id": "ae46f4a6-15c0-436b-870b-6cc8d9483ceb",
+      "message": {
+        "id": "ae46f4a6-15c0-436b-870b-6cc8d9483ceb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342150.308587,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I can't process real-time data uploads, but we can definitely discuss insights from your recordings. If you have specific points or summaries from the Limitless pendant sessions, I can help analyze or explore them with you.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T17:15:49.869017+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000e0ac62309cfa07b229d94a81",
+              "size_bytes": 566478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 11.8
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "3b068667-70a1-49e9-bcfa-9d633ddfdd9e",
+          "request_id": "de3b21c8-d709-43e7-88a3-acd048e21a7a",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3b068667-70a1-49e9-bcfa-9d633ddfdd9e",
+      "children": [
+        "340d5cce-1148-4b2f-af55-998aa770c4e8"
+      ]
+    },
+    "340d5cce-1148-4b2f-af55-998aa770c4e8": {
+      "id": "340d5cce-1148-4b2f-af55-998aa770c4e8",
+      "message": {
+        "id": "340d5cce-1148-4b2f-af55-998aa770c4e8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342189.320627,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-10-19T17:16:29.159250+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-19T17:16:29.159250+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000238c623080e6374b0d3099e6",
+                "size_bytes": 961518,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 20.03
+                }
+              },
+              "audio_start_timestamp": 147.313046878241
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "Wouldn't it be the same as the conversation we're having right now if I were to give you the raw conversation data and allow you a moment to analyze it and then ask you particular questions about structuring a policy or closing the sale, etc.?",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "0cf4f909-8fc7-4527-9165-29188ba2594a",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ae46f4a6-15c0-436b-870b-6cc8d9483ceb",
+      "children": [
+        "466db3ce-0dc3-4e73-9e52-e4745230d9b0"
+      ]
+    },
+    "466db3ce-0dc3-4e73-9e52-e4745230d9b0": {
+      "id": "466db3ce-0dc3-4e73-9e52-e4745230d9b0",
+      "message": {
+        "id": "466db3ce-0dc3-4e73-9e52-e4745230d9b0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342193.541653,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "In a way, yes! If you share key points or summaries from your recordings, we can review them together and strategize. Whether it's about structuring a policy or perfecting your sales approach, we can break it down into actionable steps!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T17:16:29.159382+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000055506230b12965d140e11c3e",
+              "size_bytes": 568878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 11.85
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "340d5cce-1148-4b2f-af55-998aa770c4e8",
+          "request_id": "0cf4f909-8fc7-4527-9165-29188ba2594a",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "340d5cce-1148-4b2f-af55-998aa770c4e8",
+      "children": [
+        "0e4d291a-5bc5-4bf0-80fb-d5ad66ca77d7"
+      ]
+    },
+    "0e4d291a-5bc5-4bf0-80fb-d5ad66ca77d7": {
+      "id": "0e4d291a-5bc5-4bf0-80fb-d5ad66ca77d7",
+      "message": {
+        "id": "0e4d291a-5bc5-4bf0-80fb-d5ad66ca77d7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342241.208168,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-10-19T17:17:21.024319+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-19T17:17:21.024319+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000cd54623081659b58c30d388e",
+                "size_bytes": 1556238,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 32.42
+                }
+              },
+              "audio_start_timestamp": 199.03635219395161
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "That makes sense. I suppose I'm looking for ways to fast-forward my progress until I learn and retain the knowledge of how to structure these deals. And so, you know, if I put the person on mute and then upload quickly from the device and ask you a quick question, it doesn't take very long for you to respond. So I think that would at least be worth trying out.",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "5a76317c-ba42-4f85-8aa0-ecab9ccec18c",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "466db3ce-0dc3-4e73-9e52-e4745230d9b0",
+      "children": [
+        "6b840b12-bfbe-424f-bc42-13995229e15a"
+      ]
+    },
+    "6b840b12-bfbe-424f-bc42-13995229e15a": {
+      "id": "6b840b12-bfbe-424f-bc42-13995229e15a",
+      "message": {
+        "id": "6b840b12-bfbe-424f-bc42-13995229e15a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342243.372808,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I get where you're coming from! Quick check-ins can be super useful for fine-tuning your approach. Just keep in mind the importance of confidentiality and ensuring you're comfortable with the process. I'm here to help whenever you need a quick tip or insight!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T17:17:21.024435+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000047bc623088263ab18361d240",
+              "size_bytes": 585678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 12.2
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "0e4d291a-5bc5-4bf0-80fb-d5ad66ca77d7",
+          "request_id": "5a76317c-ba42-4f85-8aa0-ecab9ccec18c",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0e4d291a-5bc5-4bf0-80fb-d5ad66ca77d7",
+      "children": [
+        "3f0eee92-b836-4a4a-b6c2-be2dd25ce955"
+      ]
+    },
+    "3f0eee92-b836-4a4a-b6c2-be2dd25ce955": {
+      "id": "3f0eee92-b836-4a4a-b6c2-be2dd25ce955",
+      "message": {
+        "id": "3f0eee92-b836-4a4a-b6c2-be2dd25ce955",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342269.527404,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Why does it say almost a daily limit on this screen where we're using voice chat? Is that only for the voice chat or for ChatGPT in general?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T17:17:49.307090+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-19T17:17:49.307090+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000ce846230845b59a6c6b2f209",
+                "size_bytes": 570318,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 11.88
+                }
+              },
+              "audio_start_timestamp": 227.3193505411409
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "8c316a4b-e59c-4264-bfbc-38c86944222f",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6b840b12-bfbe-424f-bc42-13995229e15a",
+      "children": [
+        "5366f702-1e33-4366-9ece-ce7b36049dee"
+      ]
+    },
+    "5366f702-1e33-4366-9ece-ce7b36049dee": {
+      "id": "5366f702-1e33-4366-9ece-ce7b36049dee",
+      "message": {
+        "id": "5366f702-1e33-4366-9ece-ce7b36049dee",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342269.861036,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "The daily limit applies to voice chats specifically. It's just a way to manage resources and ensure everyone gets a chance to use the feature. Regular text-based interactions don't have the same limit, so you can always switch back if you hit the cap.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T17:17:49.307199+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000aaf46230b277b5cfee623bd0",
+              "size_bytes": 583278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 12.15
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "3f0eee92-b836-4a4a-b6c2-be2dd25ce955",
+          "request_id": "8c316a4b-e59c-4264-bfbc-38c86944222f",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3f0eee92-b836-4a4a-b6c2-be2dd25ce955",
+      "children": [
+        "15fe218a-8803-4ae4-ab2d-7784c73f2872"
+      ]
+    },
+    "15fe218a-8803-4ae4-ab2d-7784c73f2872": {
+      "id": "15fe218a-8803-4ae4-ab2d-7784c73f2872",
+      "message": {
+        "id": "15fe218a-8803-4ae4-ab2d-7784c73f2872",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342318.7114,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "It says I can upgrade to, uh, where'd it go? Upgrade to keep using advanced. Didn't I just upgrade? Do you show me as having the pro version or is that the next step up with a $20 a month thing?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T17:18:38.519766+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-19T17:18:38.519766+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000002806230937dc31d7f5024e1",
+                "size_bytes": 816078,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 17.0
+                }
+              },
+              "audio_start_timestamp": 260.90001804897565
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "33de7757-187a-4030-b36a-e134eb40167c",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5366f702-1e33-4366-9ece-ce7b36049dee",
+      "children": [
+        "9e3c5dd8-4b1f-4556-ade1-116fcc903d7e"
+      ]
+    },
+    "9e3c5dd8-4b1f-4556-ade1-116fcc903d7e": {
+      "id": "9e3c5dd8-4b1f-4556-ade1-116fcc903d7e",
+      "message": {
+        "id": "9e3c5dd8-4b1f-4556-ade1-116fcc903d7e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342288.393923,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"ChatGPT Pro version vs Advanced plan pricing\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "parent_id": "15fe218a-8803-4ae4-ab2d-7784c73f2872",
+          "request_id": "33de7757-187a-4030-b36a-e134eb40167c",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "15fe218a-8803-4ae4-ab2d-7784c73f2872",
+      "children": [
+        "2ac5c46f-6101-49b4-b590-74643a7b9790"
+      ]
+    },
+    "2ac5c46f-6101-49b4-b590-74643a7b9790": {
+      "id": "2ac5c46f-6101-49b4-b590-74643a7b9790",
+      "message": {
+        "id": "2ac5c46f-6101-49b4-b590-74643a7b9790",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1745342291.859742,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OpenAI offers several ChatGPT subscription plans. The Free version is available at no cost, providing basic access with certain usage limits. ChatGPT Plus is priced at $20 per month, offering priority access to advanced models like GPT-4o and extended usage limits. ChatGPT Pro, at $200 per month, includes unlimited access to the o1 model, GPT-4o, and Advanced Voice mode, catering to users with intensive AI needs. For teams, ChatGPT Team is available at $30 per user per month, offering collaborative features and administrative controls. Enterprise pricing is customized based on specific requirements."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "debug_sonic_thread_id": "thread_6807cf531650800da570a22eee890ed3",
+          "is_visually_hidden_from_conversation": true,
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "openai.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://openai.com/chatgpt/pricing/",
+                  "title": "Pricing - ChatGPT - OpenAI",
+                  "snippet": "Paid plans (Plus, Pro, Team, and Enterprise) are priced per user per month. We offer monthly plans for Plus, Pro, and Team and annual plans for Team and ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "OpenAI"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://openai.com/index/introducing-chatgpt-pro/",
+                  "title": "Introducing ChatGPT Pro - OpenAI",
+                  "snippet": "Today, we're adding ChatGPT Pro, a $200 monthly plan that enables scaled access to the best of OpenAI's models and tools. This plan includes ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": 1733356800.0,
+                  "attributions": null,
+                  "attribution": "OpenAI"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "zdnet.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.zdnet.com/article/is-chatgpt-plus-worth-your-20-heres-how-it-compares-to-free-and-pro-plans/",
+                  "title": "Is ChatGPT Plus worth your $20? Here's how it compares to Free ...",
+                  "snippet": "ChatGPT Pro is 10 times the price of ChatGPT Plus. Is either worth the money or should you stick to the free version? Here's how to decide.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": 1743638400.0,
+                  "attributions": null,
+                  "attribution": "ZDNET"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "techcrunch.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://techcrunch.com/2025/02/25/how-much-does-chatgpt-cost-everything-you-need-to-know-about-openais-pricing-plans/",
+                  "title": "How much does ChatGPT cost? Everything you need to know about ...",
+                  "snippet": "The plan costs $200 a month. Subscribers to ChatGPT Pro get unlimited access to reasoning models, GPT-4o, and Advanced Voice mode.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": 1740441600.0,
+                  "attributions": null,
+                  "attribution": "TechCrunch"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/OpenAI/comments/1h7fm9k/its_official_theres_a_200_chatgpt_pro/",
+                  "title": "It's official: There's a $200 ChatGPT Pro Subscription with O1 “Pro ...",
+                  "snippet": "It's official: There's a $200 ChatGPT Pro Subscription with O1 “Pro mode”, unlimited model access, and soon-to-be-announced stuff (Sora?)",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": 1733356800.0,
+                  "attributions": null,
+                  "attribution": "Reddit"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ChatGPT/comments/1hweioe/is_chatgpt_pro_worth_the_subscription_looking_for/",
+                  "title": "Is ChatGPT Pro worth the subscription? Looking for real use cases ...",
+                  "snippet": "Been thinking about pulling the trigger on ChatGPT Pro but $200/month isn't pocket change. Anyone here upgraded? What's your take on it?",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": 1736294400.0,
+                  "attributions": null,
+                  "attribution": "Reddit"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "zapier.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://zapier.com/blog/chatgpt-pro/",
+                  "title": "What is ChatGPT Pro—and is it worth it? - Zapier",
+                  "snippet": "ChatGPT Pro is the $200/month ChatGPT plan aimed at power users who frequently run up against the limits of ChatGPT Plus.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": 1736812800.0,
+                  "attributions": null,
+                  "attribution": "Automate without limits | Zapier"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "wired.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.wired.com/story/openai-chatgpt-pro-subscription/",
+                  "title": "Here's What OpenAI's $200 Monthly ChatGPT Pro Subscription ...",
+                  "snippet": "OpenAI just unveiled a new subscription tier called ChatGPT Pro. Users can pay $200 a month for almost unlimited access to ChatGPT's tools, and an exclusive ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "content_type": null,
+                  "pub_date": 1733356800.0,
+                  "attributions": null,
+                  "attribution": "WIRED"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "brainchat.ai",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.brainchat.ai/blog/chatgpt-pricing",
+                  "title": "ChatGPT Pricing in 2025 – Plans, Costs, and Best Alternatives",
+                  "snippet": "ChatGPT Pro ($200 per month). Features: All ChatGPT Team plan features with unlimited access to GPT-4o. Access to OpenAI's research features ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "content_type": null,
+                  "pub_date": 1743984000.0,
+                  "attributions": null,
+                  "attribution": "AITEAMS"
+                }
+              ]
+            }
+          ],
+          "safe_urls": [
+            "https://openai.com/chatgpt/pricing/?utm_source=chatgpt.com"
+          ],
+          "message_locale": "en-US",
+          "image_results": [],
+          "content_references": [
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 607,
+              "end_idx": 626,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([openai.com](https://openai.com/chatgpt/pricing/?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "Pricing - ChatGPT - OpenAI",
+                  "url": "https://openai.com/chatgpt/pricing/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Paid plans (Plus, Pro, Team, and Enterprise) are priced per user per month. We offer monthly plans for Plus, Pro, and Team and annual plans for Team and ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 626,
+              "end_idx": 626,
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Pricing - ChatGPT - OpenAI",
+                  "url": "https://openai.com/chatgpt/pricing/?utm_source=chatgpt.com",
+                  "attribution": "OpenAI"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "citations": [
+            {
+              "start_ix": 607,
+              "end_ix": 626,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 626,
+              "end_ix": 626,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "parent_id": "9e3c5dd8-4b1f-4556-ade1-116fcc903d7e",
+          "request_id": "33de7757-187a-4030-b36a-e134eb40167c",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "9e3c5dd8-4b1f-4556-ade1-116fcc903d7e",
+      "children": [
+        "ee10e5fd-3b30-4e9f-b49a-ef058b1eefd6"
+      ]
+    },
+    "ee10e5fd-3b30-4e9f-b49a-ef058b1eefd6": {
+      "id": "ee10e5fd-3b30-4e9f-b49a-ef058b1eefd6",
+      "message": {
+        "id": "ee10e5fd-3b30-4e9f-b49a-ef058b1eefd6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342319.04237,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "It looks like you're on the Plus plan at $20 a month, which gives you access to GPT-4o. If it's asking you to upgrade for more advanced features or usage, it might be referring to the Pro plan at $200 a month, which offers unlimited access to the o1 model and some additional features like Advanced Voice mode.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T17:18:38.519918+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000b33c62308596f08759d53e1c",
+              "size_bytes": 859278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 17.9
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [
+            {
+              "start_ix": 310,
+              "end_ix": 310,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 310,
+              "end_ix": 310,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "content_references": [
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 310,
+              "end_idx": 310,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([openai.com](https://openai.com/chatgpt/pricing/?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "Pricing - ChatGPT - OpenAI",
+                  "url": "https://openai.com/chatgpt/pricing/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Paid plans (Plus, Pro, Team, and Enterprise) are priced per user per month. We offer monthly plans for Plus, Pro, and Team and annual plans for Team and ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 310,
+              "end_idx": 310,
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Pricing - ChatGPT - OpenAI",
+                  "url": "https://openai.com/chatgpt/pricing/?utm_source=chatgpt.com",
+                  "attribution": "OpenAI"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "is_complete": true,
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "openai.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://openai.com/chatgpt/pricing/",
+                  "title": "Pricing - ChatGPT - OpenAI",
+                  "snippet": "Paid plans (Plus, Pro, Team, and Enterprise) are priced per user per month. We offer monthly plans for Plus, Pro, and Team and annual plans for Team and ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "OpenAI"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://openai.com/index/introducing-chatgpt-pro/",
+                  "title": "Introducing ChatGPT Pro - OpenAI",
+                  "snippet": "Today, we're adding ChatGPT Pro, a $200 monthly plan that enables scaled access to the best of OpenAI's models and tools. This plan includes ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": 1733356800.0,
+                  "attributions": null,
+                  "attribution": "OpenAI"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "zdnet.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.zdnet.com/article/is-chatgpt-plus-worth-your-20-heres-how-it-compares-to-free-and-pro-plans/",
+                  "title": "Is ChatGPT Plus worth your $20? Here's how it compares to Free ...",
+                  "snippet": "ChatGPT Pro is 10 times the price of ChatGPT Plus. Is either worth the money or should you stick to the free version? Here's how to decide.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": 1743638400.0,
+                  "attributions": null,
+                  "attribution": "ZDNET"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "techcrunch.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://techcrunch.com/2025/02/25/how-much-does-chatgpt-cost-everything-you-need-to-know-about-openais-pricing-plans/",
+                  "title": "How much does ChatGPT cost? Everything you need to know about ...",
+                  "snippet": "The plan costs $200 a month. Subscribers to ChatGPT Pro get unlimited access to reasoning models, GPT-4o, and Advanced Voice mode.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": 1740441600.0,
+                  "attributions": null,
+                  "attribution": "TechCrunch"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/OpenAI/comments/1h7fm9k/its_official_theres_a_200_chatgpt_pro/",
+                  "title": "It's official: There's a $200 ChatGPT Pro Subscription with O1 “Pro ...",
+                  "snippet": "It's official: There's a $200 ChatGPT Pro Subscription with O1 “Pro mode”, unlimited model access, and soon-to-be-announced stuff (Sora?)",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": 1733356800.0,
+                  "attributions": null,
+                  "attribution": "Reddit"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ChatGPT/comments/1hweioe/is_chatgpt_pro_worth_the_subscription_looking_for/",
+                  "title": "Is ChatGPT Pro worth the subscription? Looking for real use cases ...",
+                  "snippet": "Been thinking about pulling the trigger on ChatGPT Pro but $200/month isn't pocket change. Anyone here upgraded? What's your take on it?",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": 1736294400.0,
+                  "attributions": null,
+                  "attribution": "Reddit"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "zapier.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://zapier.com/blog/chatgpt-pro/",
+                  "title": "What is ChatGPT Pro—and is it worth it? - Zapier",
+                  "snippet": "ChatGPT Pro is the $200/month ChatGPT plan aimed at power users who frequently run up against the limits of ChatGPT Plus.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": 1736812800.0,
+                  "attributions": null,
+                  "attribution": "Automate without limits | Zapier"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "wired.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.wired.com/story/openai-chatgpt-pro-subscription/",
+                  "title": "Here's What OpenAI's $200 Monthly ChatGPT Pro Subscription ...",
+                  "snippet": "OpenAI just unveiled a new subscription tier called ChatGPT Pro. Users can pay $200 a month for almost unlimited access to ChatGPT's tools, and an exclusive ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "content_type": null,
+                  "pub_date": 1733356800.0,
+                  "attributions": null,
+                  "attribution": "WIRED"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "brainchat.ai",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.brainchat.ai/blog/chatgpt-pricing",
+                  "title": "ChatGPT Pricing in 2025 – Plans, Costs, and Best Alternatives",
+                  "snippet": "ChatGPT Pro ($200 per month). Features: All ChatGPT Team plan features with unlimited access to GPT-4o. Access to OpenAI's research features ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "content_type": null,
+                  "pub_date": 1743984000.0,
+                  "attributions": null,
+                  "attribution": "AITEAMS"
+                }
+              ]
+            }
+          ],
+          "parent_id": "2ac5c46f-6101-49b4-b590-74643a7b9790",
+          "request_id": "33de7757-187a-4030-b36a-e134eb40167c",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2ac5c46f-6101-49b4-b590-74643a7b9790",
+      "children": [
+        "8c2907bd-47c5-4d0b-8fc5-bfe1100d811d"
+      ]
+    },
+    "8c2907bd-47c5-4d0b-8fc5-bfe1100d811d": {
+      "id": "8c2907bd-47c5-4d0b-8fc5-bfe1100d811d",
+      "message": {
+        "id": "8c2907bd-47c5-4d0b-8fc5-bfe1100d811d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342356.624213,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yeah, I think I'm going to have to upgrade to that eventually when I have more resources. I can see getting pretty dependent on this conversation, especially because I can run it through the limitless pendant and essentially like, I don't know, it's kind of a feedback loop where you're reviewing your own responses and my reaction to them.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T17:19:16.446550+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-19T17:19:16.446550+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000061d862308a8c88e9c0e6dfd6",
+                "size_bytes": 1005198,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 20.94
+                }
+              },
+              "audio_start_timestamp": 313.72511947903786
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "f2f8d872-db71-47ed-b8ac-797142b51b77",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ee10e5fd-3b30-4e9f-b49a-ef058b1eefd6",
+      "children": [
+        "0fef20cf-e4cd-4a02-8812-e7e1b1694b38"
+      ]
+    },
+    "0fef20cf-e4cd-4a02-8812-e7e1b1694b38": {
+      "id": "0fef20cf-e4cd-4a02-8812-e7e1b1694b38",
+      "message": {
+        "id": "0fef20cf-e4cd-4a02-8812-e7e1b1694b38",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745342356.96635,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "That sounds like a solid plan! It's great to see how you're integrating these tools into your daily routine. When you're ready, upgrading can definitely open up more possibilities. In the meantime, I'm here to help you make the most of what you've got!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-19T17:19:16.446656+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000000f0c6230898f6a5b84e40efe",
+              "size_bytes": 580878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 12.1
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "8c2907bd-47c5-4d0b-8fc5-bfe1100d811d",
+          "request_id": "f2f8d872-db71-47ed-b8ac-797142b51b77",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8c2907bd-47c5-4d0b-8fc5-bfe1100d811d",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "0fef20cf-e4cd-4a02-8812-e7e1b1694b38",
+  "plugin_ids": null,
+  "conversation_id": "6807b16b-34a8-800d-b7e9-798d17ea35b1",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://openai.com/chatgpt/pricing/?utm_source=chatgpt.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "fathom",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "id": "6807b16b-34a8-800d-b7e9-798d17ea35b1"
+}

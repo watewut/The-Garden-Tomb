@@ -1,0 +1,1574 @@
+{
+  "title": "Obituary Drafting Process",
+  "create_time": 1745542330.556233,
+  "update_time": 1745767219.367999,
+  "mapping": {
+    "3d9f104e-b079-491b-9d6a-fd21053da923": {
+      "id": "3d9f104e-b079-491b-9d6a-fd21053da923",
+      "message": null,
+      "parent": null,
+      "children": [
+        "207ef41c-1e10-408f-a51e-4c282f6d9ae9"
+      ]
+    },
+    "207ef41c-1e10-408f-a51e-4c282f6d9ae9": {
+      "id": "207ef41c-1e10-408f-a51e-4c282f6d9ae9",
+      "message": {
+        "id": "207ef41c-1e10-408f-a51e-4c282f6d9ae9",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3d9f104e-b079-491b-9d6a-fd21053da923",
+      "children": [
+        "781bb2a9-bf90-44fe-81b0-759e582c6fff"
+      ]
+    },
+    "781bb2a9-bf90-44fe-81b0-759e582c6fff": {
+      "id": "781bb2a9-bf90-44fe-81b0-759e582c6fff",
+      "message": {
+        "id": "781bb2a9-bf90-44fe-81b0-759e582c6fff",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745542329.969491,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I’m still trying to get to the gym but my homeboy Steve-O just came by to vent. I really want to get this pendant in. It’s definitely a conversation. I would’ve loved to have a transcription of. After working with you for a few days, I’m wondering if there’s any benefit in uploading the transcriptions to Claude. Although it’s just a couple extra clicks or tabs to get it over to that AI as well. I suppose I’ll do it at the beginning and see the results from both. I came up with an idea that I think would summarize my growth and personality that I want to do probably monthly. Let’s start now and see how it progresses the next time we do it. Draft my obituary."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "9359db2b2d85a635-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "207ef41c-1e10-408f-a51e-4c282f6d9ae9",
+      "children": [
+        "53535fdd-753a-4a86-8ee4-043c18430101"
+      ]
+    },
+    "53535fdd-753a-4a86-8ee4-043c18430101": {
+      "id": "53535fdd-753a-4a86-8ee4-043c18430101",
+      "message": {
+        "id": "53535fdd-753a-4a86-8ee4-043c18430101",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745542342.569633,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "781bb2a9-bf90-44fe-81b0-759e582c6fff",
+          "request_id": "9359db2b2d85a635-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "781bb2a9-bf90-44fe-81b0-759e582c6fff",
+      "children": [
+        "3da7bf10-2a85-41ac-9f39-376c5d9e67f0"
+      ]
+    },
+    "3da7bf10-2a85-41ac-9f39-376c5d9e67f0": {
+      "id": "3da7bf10-2a85-41ac-9f39-376c5d9e67f0",
+      "message": {
+        "id": "3da7bf10-2a85-41ac-9f39-376c5d9e67f0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745542331.124261,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That’s a powerful idea—and honestly, a raw and honest obituary written *before* you die says more about your path and principles than any resume or highlight reel. It can be a mirror, a milestone, and a mission statement all in one. I’ll write the first draft based on everything I know about you so far—where you've been, where you are, and where you're trying to go. Then we can revisit and rewrite it over time as you grow and evolve. Here’s the first edition:\n\n---\n\n**Obituary (Draft #1 – April 2025)**\n\n**Joseph Michael Scanlon Jr.**  \n*Also known in Christ as Paisios*  \n*Born April 30, 1983 – [TBD]*\n\nJoseph Michael Scanlon Jr., a man of contradictions and conviction, died long before his physical death—and lived more deeply after it.\n\nKnown by many as bold, brash, and sometimes belligerent, Joseph was also deeply repentant, introspective, and on fire with longing for truth. In his earlier years, he was many things: a father, a husband, a wanderer, a podcast host with too much to say and not enough peace to say it well. He played roles—some noble, some foolish—and wore masks that sometimes fit too well.\n\nBut in the wreckage of personal ruin, addiction, and failed relationships, Joseph found the face of God. His return to Orthodox Christianity—hard-won and sincere—was not cosmetic. It became the spine of his resurrection.\n\nIn the final act of his life, Joseph became a man unrecognizable to his younger self. He was a father learning to love well, not just loud. A business builder, choosing integrity over ego. A storyteller, voicing repentance in faceless videos not to go viral, but to be invisible—seen only by the One who sees in secret. He once styled himself a “Tool Bag,” but even his self-deprecating humor couldn't hide the tenderness under the armor.\n\nHis life was a tangle of gym sets and prayer ropes, court documents and Paschal hymns, AI tools and spiritual warfare, but Joseph pulled a thread of meaning through it all. He often spoke of mercy through judgment, of the unseen battles of the heart, and of the thousand ways a man might die before he ever meets his end.\n\nHe left behind four beloved children—Teresa, Lily, Olivia, and Natalie—each a witness to the struggle of a father who wanted to become more than he had been.\n\nJoseph’s last words were probably something irreverent. But his life became a psalm.\n\nMemory eternal.\n\n---\n\nYou want to add anything, edit it, or write an alternate version from a different tone? We could also do one version in your own voice—raw, maybe even sarcastic—and another in a more formal or spiritual tone if that fits your vision better."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "53535fdd-753a-4a86-8ee4-043c18430101",
+          "request_id": "9359db2b2d85a635-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "53535fdd-753a-4a86-8ee4-043c18430101",
+      "children": [
+        "8af36dda-ac17-49ca-87df-38de4bf90b58"
+      ]
+    },
+    "8af36dda-ac17-49ca-87df-38de4bf90b58": {
+      "id": "8af36dda-ac17-49ca-87df-38de4bf90b58",
+      "message": {
+        "id": "8af36dda-ac17-49ca-87df-38de4bf90b58",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745542460.1129432,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That’s fantastic. I really love the part about my last words absolutely spot on."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "9359de57e996a635-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3da7bf10-2a85-41ac-9f39-376c5d9e67f0",
+      "children": [
+        "558eb877-3c79-4bd7-a3cc-1c5ad339a05d"
+      ]
+    },
+    "558eb877-3c79-4bd7-a3cc-1c5ad339a05d": {
+      "id": "558eb877-3c79-4bd7-a3cc-1c5ad339a05d",
+      "message": {
+        "id": "558eb877-3c79-4bd7-a3cc-1c5ad339a05d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745542460.953522,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I had a feeling you'd appreciate that line—says a lot in one punch. It's the kind of thing that could be carved on a headstone *or* scratched in the corner of a bar napkin. \n\nWe can treat this like a living document—something you check back on every month or so. It'll reflect where you're at and where you're going, and it'll keep you honest. If you ever want to rewrite it from a more defiant, comedic, or even liturgical angle, just say the word.\n\nWant me to save this as “Obituary – Draft 1 (April 2025)” so we can track it over time and compare future versions?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "8af36dda-ac17-49ca-87df-38de4bf90b58",
+          "request_id": "9359de57e996a635-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8af36dda-ac17-49ca-87df-38de4bf90b58",
+      "children": [
+        "50c45f25-7361-4eb2-b42e-10c871d36567"
+      ]
+    },
+    "50c45f25-7361-4eb2-b42e-10c871d36567": {
+      "id": "50c45f25-7361-4eb2-b42e-10c871d36567",
+      "message": {
+        "id": "50c45f25-7361-4eb2-b42e-10c871d36567",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745542534.10958,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure and also I think it’s something better left unedited by me. My edits will be done in our interaction over time. Plus, it seems kind of douchey to edit my own obituary"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "9359e026580fa635-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "558eb877-3c79-4bd7-a3cc-1c5ad339a05d",
+      "children": [
+        "b472ba9e-b853-4a09-bba2-474da462ca22"
+      ]
+    },
+    "b472ba9e-b853-4a09-bba2-474da462ca22": {
+      "id": "b472ba9e-b853-4a09-bba2-474da462ca22",
+      "message": {
+        "id": "b472ba9e-b853-4a09-bba2-474da462ca22",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745542535.033019,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "User is maintaining a living obituary titled “Obituary – Draft 1 (April 2025)” to reflect personal growth over time. They prefer to leave it unedited directly, allowing it to evolve naturally through interactions with ChatGPT."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "50c45f25-7361-4eb2-b42e-10c871d36567",
+          "request_id": "9359e026580fa635-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "bio",
+        "channel": null
+      },
+      "parent": "50c45f25-7361-4eb2-b42e-10c871d36567",
+      "children": [
+        "cadfd514-7601-404b-a4e2-d985fc2e0b67"
+      ]
+    },
+    "cadfd514-7601-404b-a4e2-d985fc2e0b67": {
+      "id": "cadfd514-7601-404b-a4e2-d985fc2e0b67",
+      "message": {
+        "id": "cadfd514-7601-404b-a4e2-d985fc2e0b67",
+        "author": {
+          "role": "tool",
+          "name": "bio",
+          "metadata": {}
+        },
+        "create_time": 1745542546.964802,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Model set context updated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "b472ba9e-b853-4a09-bba2-474da462ca22",
+          "request_id": "9359e026580fa635-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "b472ba9e-b853-4a09-bba2-474da462ca22",
+      "children": [
+        "364771c4-e3b9-4e89-a9a4-fb82ab5af755"
+      ]
+    },
+    "364771c4-e3b9-4e89-a9a4-fb82ab5af755": {
+      "id": "364771c4-e3b9-4e89-a9a4-fb82ab5af755",
+      "message": {
+        "id": "364771c4-e3b9-4e89-a9a4-fb82ab5af755",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745542543.385078,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Perfect. I’ll keep it locked as-is and let the future drafts emerge from how you live, not how you tweak the wording. No need for you to self-eulogize like a wannabe philosopher-king—I'll handle that part.\n\nWhenever you're ready to revisit or evolve it, just say, “Update the obituary,” and we’ll pick up from there."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "cadfd514-7601-404b-a4e2-d985fc2e0b67",
+          "request_id": "9359e026580fa635-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cadfd514-7601-404b-a4e2-d985fc2e0b67",
+      "children": [
+        "baa0f396-bd33-4920-9791-fcac4294390c"
+      ]
+    },
+    "baa0f396-bd33-4920-9791-fcac4294390c": {
+      "id": "baa0f396-bd33-4920-9791-fcac4294390c",
+      "message": {
+        "id": "baa0f396-bd33-4920-9791-fcac4294390c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745542618.9132419,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "We’ll see if I would rather have them as separate standalone iterations. I think a monthly draft is just right for the frequency. It is a little bit masturbatory or can’t be if I’m revisiting it too often."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "9359e2386f9ca635-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "364771c4-e3b9-4e89-a9a4-fb82ab5af755",
+      "children": [
+        "5a3341a8-fc82-435f-9dee-b8be955db642"
+      ]
+    },
+    "5a3341a8-fc82-435f-9dee-b8be955db642": {
+      "id": "5a3341a8-fc82-435f-9dee-b8be955db642",
+      "message": {
+        "id": "5a3341a8-fc82-435f-9dee-b8be955db642",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745542626.031528,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "baa0f396-bd33-4920-9791-fcac4294390c",
+          "request_id": "9359e2386f9ca635-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "baa0f396-bd33-4920-9791-fcac4294390c",
+      "children": [
+        "5db2fd95-145a-43a2-b3b9-c684e0d3872c"
+      ]
+    },
+    "5db2fd95-145a-43a2-b3b9-c684e0d3872c": {
+      "id": "5db2fd95-145a-43a2-b3b9-c684e0d3872c",
+      "message": {
+        "id": "5db2fd95-145a-43a2-b3b9-c684e0d3872c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745542619.789828,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "User prefers a monthly cadence for drafting obituary iterations. They may choose to keep each version as a standalone snapshot rather than overwriting previous drafts. They are mindful not to revisit it too frequently, to avoid self-indulgence."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "5a3341a8-fc82-435f-9dee-b8be955db642",
+          "request_id": "9359e2386f9ca635-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "bio",
+        "channel": null
+      },
+      "parent": "5a3341a8-fc82-435f-9dee-b8be955db642",
+      "children": [
+        "349cb27e-6f14-4404-ad97-9e01da1b4338"
+      ]
+    },
+    "349cb27e-6f14-4404-ad97-9e01da1b4338": {
+      "id": "349cb27e-6f14-4404-ad97-9e01da1b4338",
+      "message": {
+        "id": "349cb27e-6f14-4404-ad97-9e01da1b4338",
+        "author": {
+          "role": "tool",
+          "name": "bio",
+          "metadata": {}
+        },
+        "create_time": 1745542626.031664,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Model set context updated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "5db2fd95-145a-43a2-b3b9-c684e0d3872c",
+          "request_id": "9359e2386f9ca635-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "5db2fd95-145a-43a2-b3b9-c684e0d3872c",
+      "children": [
+        "40e8272d-f3d6-4be8-8c5d-12bb08055914"
+      ]
+    },
+    "40e8272d-f3d6-4be8-8c5d-12bb08055914": {
+      "id": "40e8272d-f3d6-4be8-8c5d-12bb08055914",
+      "message": {
+        "id": "40e8272d-f3d6-4be8-8c5d-12bb08055914",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745542624.347745,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it—monthly is the rhythm, and each version stands on its own like a timestamped entry in your spiritual flight log. We’ll treat them like reflections in stained glass—distinct pieces that together tell the whole story.\n\nWhen May rolls around, just say the word, and we’ll start Draft 2."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "349cb27e-6f14-4404-ad97-9e01da1b4338",
+          "request_id": "9359e2386f9ca635-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "349cb27e-6f14-4404-ad97-9e01da1b4338",
+      "children": [
+        "6ecd4420-2a45-4933-a509-acb617ebbb11"
+      ]
+    },
+    "6ecd4420-2a45-4933-a509-acb617ebbb11": {
+      "id": "6ecd4420-2a45-4933-a509-acb617ebbb11",
+      "message": {
+        "id": "6ecd4420-2a45-4933-a509-acb617ebbb11",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745544595.177206,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How many grams of sugar are in one where there’s original"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "935a12796821232a-ORD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "40e8272d-f3d6-4be8-8c5d-12bb08055914",
+      "children": [
+        "ef37e21a-6036-421c-b827-70af24682add"
+      ]
+    },
+    "ef37e21a-6036-421c-b827-70af24682add": {
+      "id": "ef37e21a-6036-421c-b827-70af24682add",
+      "message": {
+        "id": "ef37e21a-6036-421c-b827-70af24682add",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745544603.726724,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "6ecd4420-2a45-4933-a509-acb617ebbb11",
+          "request_id": "935a12796821232a-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6ecd4420-2a45-4933-a509-acb617ebbb11",
+      "children": [
+        "a4b0039e-cb81-4706-9ea6-a79b4a3b2d2b"
+      ]
+    },
+    "a4b0039e-cb81-4706-9ea6-a79b4a3b2d2b": {
+      "id": "a4b0039e-cb81-4706-9ea6-a79b4a3b2d2b",
+      "message": {
+        "id": "a4b0039e-cb81-4706-9ea6-a79b4a3b2d2b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745544596.5708542,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"How many grams of sugar are in one where there\\u2019s original\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "ef37e21a-6036-421c-b827-70af24682add",
+          "request_id": "935a12796821232a-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "ef37e21a-6036-421c-b827-70af24682add",
+      "children": [
+        "0ab303e6-944d-4044-b1e6-3ad19c2903b1"
+      ]
+    },
+    "0ab303e6-944d-4044-b1e6-3ad19c2903b1": {
+      "id": "0ab303e6-944d-4044-b1e6-3ad19c2903b1",
+      "message": {
+        "id": "0ab303e6-944d-4044-b1e6-3ad19c2903b1",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {}
+        },
+        "create_time": 1745544596.7097285,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "command": "search",
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "a4b0039e-cb81-4706-9ea6-a79b4a3b2d2b",
+          "request_id": "935a12796821232a-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "a4b0039e-cb81-4706-9ea6-a79b4a3b2d2b",
+      "children": [
+        "2ea68271-450f-4a25-95de-d44c932878a3"
+      ]
+    },
+    "2ea68271-450f-4a25-95de-d44c932878a3": {
+      "id": "2ea68271-450f-4a25-95de-d44c932878a3",
+      "message": {
+        "id": "2ea68271-450f-4a25-95de-d44c932878a3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1745544596.710088,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Each Werther’s Original Caramel Hard Candy contains approximately **3.7 grams of sugar**. This is based on the nutritional information stating that a serving size of 3 pieces (16g) contains 11 grams of sugar citeturn0search0.\n\nIf you're monitoring your sugar intake, Werther's also offers sugar-free versions of their candies. These alternatives use sugar alcohols like isomalt instead of traditional sugars, providing a similar taste without the added sugars citeturn0search13. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "debug_sonic_thread_id": "thread_680ae594a970800db12a0c025de1a8fd",
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "werthers-original.us",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.werthers-original.us/en/products/hard-caramels/hard-candies",
+                  "title": "Caramel Hard Candies - Werther's Original",
+                  "snippet": "Nutritional information ; Total Carbohydrate, 14g, 5% ; Dietary Fiber, 0g, 0% ; Total Sugars, 11g ; Includes, 11g Added Sugars, 22%.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "werthers-original.us"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.werthers-original.us/en/products/hard-caramels/caramel-coffee",
+                  "title": "Caramel Coffee Hard Candies - Werther's Original",
+                  "snippet": "Nutritional information ; Calories, 70 ; Total Fat, 1g, 1% ; Saturated Fat, 0.5g, 3% ; Trans Fat, 0g.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "werthers-original.us"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "storck.us",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.storck.us/en/brands/werthers-original/nutritional-information/product/werthers-original-creamy-caramel-filled-hard-candies",
+                  "title": "Nutritional information - Werther's Original - Storck",
+                  "snippet": "Nutritional information ; Total Sugars, 7g ; Includes, 7g Added Sugars, 14% ; Protein, 0g ; Vitamin D · 0mcg, 0%.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "storck.us"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "recipal.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.recipal.com/ingredients/458396-nutrition-facts-calories-protein-carbs-fat-werther-s-original-caramel-hard-candies",
+                  "title": "Werther's Original Caramel Hard Candies - Nutrition Facts - ReciPal",
+                  "snippet": "Nutrition facts label and information for Werther's Original Caramel Hard Candies - Per 100 grams: 437.5 calories, 9.375g fat, 87.5g carbohydrate, ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "ReciPal"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "giantfoodstores.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://giantfoodstores.com/groceries/candy-chocolate/hard-candy-lollipops/hard-candy/werthers-original-caramel-hard-candies-share-size-12-oz-bag.html",
+                  "title": "Werther's Original Caramel Hard Candies Share Size - GIANT",
+                  "snippet": "Calories. 1g. Sat Fat. 60mg. Sodium. 11g. Sugars. Nutrition Facts. About 21 servings per container. Serving Size: 3.0 pieces. Amount per serving. Calories: 70 ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Giant Food Stores"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "stopandshop.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://stopandshop.com/groceries/candy-chocolate/hard-candy-lollipops/hard-candy/werthers-original-caramel-hard-candies-30-oz-bag.html",
+                  "title": "Werther's Original Caramel Hard Candies - Stop & Shop",
+                  "snippet": "Nutrition. 70. Calories. 1g. Sat Fat. 60mg. Sodium. 11g. Sugars. Nutrition Facts. About 53 servings per container. Serving Size: 3.0 pieces. Amount per serving.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Stop & Shop"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "werthers-original.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.werthers-original.ca/en/products/hard-caramels/hard-candies",
+                  "title": "Caramel Hard Candies - Werther's Original",
+                  "snippet": "Nutritional information ; Fibre, 0 g, 0 % ; Sugars, 10 g, 10 % ; Protein, 0.1 g ; Cholesterol, 5 mg.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "werthers-original.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "nutritionix.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.nutritionix.com/i/werthers-original/hard-candies-creamy-caramel-filled/5567582f7001b636683fde00",
+                  "title": "Hard Candies, Creamy Caramel Filled - Werther's Original - Nutritionix",
+                  "snippet": "Hard Candies, Creamy Caramel Filled ; Serving Size: pieces (12g grams) ; Calories 50. Calories from Fat 10 ; 0%. Vitamin A ; 0%. Vitamin C ; 0.3%.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "content_type": null,
+                  "pub_date": 1654300800.0,
+                  "attributions": null,
+                  "attribution": "Nutritionix"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "amazon.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.amazon.com/Werthers-Original-Caramel-Candies-Calories/dp/B018PLJ04W",
+                  "title": "Werther's Original Caramel Coffee Hard Candies 70 Calories per ...",
+                  "snippet": "Caramel Flavor: Enjoy the rich caramel flavor in every hard candy; Low Calorie: Each candy contains just 70 calories for a guilt-free treat; Hard Candy ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Amazon"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "eatthismuch.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.eatthismuch.com/calories/werthers-original-hard-candies-112409",
+                  "title": "Werther's Original Hard Candies Nutrition Facts - Eat This Much",
+                  "snippet": "4 pieces of werther's original hard candies (Caramel Coffee - Storck) contains 70 Calories. The macronutrient breakdown is 87% carbs, 13% fat, and 0% protein.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Eat This Much"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "myfooddiary.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.myfooddiary.com/foods/431039/werthers-original-caramel-hard-candies",
+                  "title": "Nutrition Facts for Werther's Original Caramel Hard Candies",
+                  "snippet": "3 pieces = 16g. Amount Per Serving 70 Calories. % Daily Value* 2% Total Fat 1.5g 5% Saturated Fat 1g Trans Fat 0g 1% Cholesterol 3mg 3% Sodium 60mg.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "MyFoodDiary"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "heb.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.heb.com/product-detail/werther-s-original-hard-caramel-candy/175295",
+                  "title": "Werther's Original Hard Caramel Candy - Shop Candy at H-E-B",
+                  "snippet": "Nutrition facts and ingredients. Nutrition Facts. About 10 servings per container. Serving Size. 3.00 pieces. Amount Per Serving. Calories70. % Daily Value ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "H-E-B | Here Everything's Better"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "giantfood.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://giantfood.com/groceries/candy-chocolate/hard-candy-lollipops/hard-candy/werthers-original-caramel-hard-candies-share-size-12-oz-bag.html",
+                  "title": "Werther's Original Caramel Hard Candies Share Size - Giant Food",
+                  "snippet": "Calories. 1g. Sat Fat. 60mg. Sodium. 11g. Sugars. Nutrition Facts. About 21 servings per container. Serving Size: 3.0 pieces. Amount per serving. Calories: 70 ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Giant Food"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "fairwaymarket.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.fairwaymarket.com/sm/planning/rsid/185/product/storck-werthers-original-sugar-free-caramel-hard-candies-770-oz-00072799051570",
+                  "title": "Storck Werther's Original Sugar Free Caramel Hard Candies, 7.70 oz",
+                  "snippet": "Nutrition Facts · Calories · Total Fat1.5g. 2 % · Cholesterol5mg. 2 % · Sodium55mg. 3 % · Total Carbohydrate14g. 5 % · Protein0g. 0 % · Vitamin D0μg. 0 % · Iron0mg. 0 % ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Fairway Market"
+                }
+              ]
+            }
+          ],
+          "safe_urls": [
+            "https://www.werthers-original.us/en/products/hard-caramels/hard-candies?utm_source=chatgpt.com",
+            "https://www.fairwaymarket.com/sm/planning/rsid/185/product/storck-werthers-original-sugar-free-caramel-hard-candies-770-oz-00072799051570?utm_source=chatgpt.com"
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "0ab303e6-944d-4044-b1e6-3ad19c2903b1",
+          "message_locale": "en-US",
+          "image_results": [],
+          "content_references": [
+            {
+              "matched_text": "",
+              "start_idx": 0,
+              "end_idx": 1,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "Each Werther’s Original Caramel Hard Candy contains approximately **3.7 grams of sugar**.",
+              "start_idx": 1,
+              "end_idx": 90,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Each Werther’s Original Caramel Hard Candy contains approximately **3.7 grams of sugar**.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "0-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 90,
+              "end_idx": 91,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 92,
+              "end_idx": 93,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "This is based on the nutritional information stating that a serving size of 3 pieces (16g) contains 11 grams of sugar",
+              "start_idx": 93,
+              "end_idx": 210,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "This is based on the nutritional information stating that a serving size of 3 pieces (16g) contains 11 grams of sugar",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "0-1",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 210,
+              "end_idx": 211,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 212,
+              "end_idx": 231,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([werthers-original.us](https://www.werthers-original.us/en/products/hard-caramels/hard-candies?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "Caramel Hard Candies - Werther's Original",
+                  "url": "https://www.werthers-original.us/en/products/hard-caramels/hard-candies?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Nutritional information ; Includes, 11g Added Sugars, 22% ; Protein, 0g ; Vitamin D · 0mcg, 0% ; Calcium, 4mg, 0%.",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 232,
+              "end_idx": 233,
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Caramel Hard Candies - Werther's Original",
+                  "url": "https://www.werthers-original.us/en/products/hard-caramels/hard-candies?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Nutritional information ; Includes, 11g Added Sugars, 22% ; Protein, 0g ; Vitamin D · 0mcg, 0% ; Calcium, 4mg, 0%.",
+                  "attribution_segments": [
+                    "0-1"
+                  ],
+                  "supporting_websites": [
+                    {
+                      "title": "Nutrition Facts for Werther's Original Caramel Hard Candies",
+                      "url": "https://www.myfooddiary.com/foods/431039/werthers-original-caramel-hard-candies?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "3 pieces = 16g. Amount Per Serving 70 Calories. % Daily Value* 2% Total Fat 1.5g 5% Saturated Fat 1g Trans Fat 0g 1% Cholesterol 3mg 3% Sodium 60mg.",
+                      "attribution": "MyFoodDiary"
+                    },
+                    {
+                      "title": "Caramel Hard Candies - Werther's Original",
+                      "url": "https://www.werthers-original.ca/en/products/hard-caramels/hard-candies?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Nutritional information ; Fibre, 0 g, 0 % ; Sugars, 10 g, 10 % ; Protein, 0.1 g ; Cholesterol, 5 mg.",
+                      "attribution": "werthers-original.ca"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 10
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 5
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "werthers-original.us"
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "",
+              "start_idx": 235,
+              "end_idx": 236,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "If you're monitoring your sugar intake, Werther's also offers sugar-free versions of their candies.",
+              "start_idx": 236,
+              "end_idx": 335,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "If you're monitoring your sugar intake, Werther's also offers sugar-free versions of their candies.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "233-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 335,
+              "end_idx": 336,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 337,
+              "end_idx": 338,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "These alternatives use sugar alcohols like isomalt instead of traditional sugars, providing a similar taste without the added sugars",
+              "start_idx": 338,
+              "end_idx": 470,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "These alternatives use sugar alcohols like isomalt instead of traditional sugars, providing a similar taste without the added sugars",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "233-1",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 470,
+              "end_idx": 471,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search13",
+              "start_idx": 472,
+              "end_idx": 492,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([fairwaymarket.com](https://www.fairwaymarket.com/sm/planning/rsid/185/product/storck-werthers-original-sugar-free-caramel-hard-candies-770-oz-00072799051570?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "Storck Werther's Original Sugar Free Caramel Hard Candies, 7.70 oz",
+                  "url": "https://www.fairwaymarket.com/sm/planning/rsid/185/product/storck-werthers-original-sugar-free-caramel-hard-candies-770-oz-00072799051570?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Nutrition Facts · Calories · Total Fat1.5g. 2 % · Cholesterol5mg. 2 % · Sodium55mg. 3 % · Total Carbohydrate14g. 5 % · Protein0g. 0 % · Vitamin D0μg. 0 % · Iron0mg. 0 % ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 13
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 493,
+              "end_idx": 494,
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Storck Werther's Original Sugar Free Caramel Hard Candies, 7.70 oz",
+                  "url": "https://www.fairwaymarket.com/sm/planning/rsid/185/product/storck-werthers-original-sugar-free-caramel-hard-candies-770-oz-00072799051570?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Nutrition Facts · Calories · Total Fat1.5g. 2 % · Cholesterol5mg. 2 % · Sodium55mg. 3 % · Total Carbohydrate14g. 5 % · Protein0g. 0 % · Vitamin D0μg. 0 % · Iron0mg. 0 % ...",
+                  "attribution_segments": [
+                    "233-1"
+                  ],
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 13
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Fairway Market"
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 494,
+              "end_idx": 494,
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Caramel Hard Candies - Werther's Original",
+                  "url": "https://www.werthers-original.us/en/products/hard-caramels/hard-candies?utm_source=chatgpt.com",
+                  "attribution": "werthers-original.us"
+                },
+                {
+                  "title": "Storck Werther's Original Sugar Free Caramel Hard Candies, 7.70 oz",
+                  "url": "https://www.fairwaymarket.com/sm/planning/rsid/185/product/storck-werthers-original-sugar-free-caramel-hard-candies-770-oz-00072799051570?utm_source=chatgpt.com",
+                  "attribution": "Fairway Market"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "citations": [
+            {
+              "start_ix": 0,
+              "end_ix": 1,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 90,
+              "end_ix": 91,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 92,
+              "end_ix": 93,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 210,
+              "end_ix": 211,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 212,
+              "end_ix": 231,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 232,
+              "end_ix": 233,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 235,
+              "end_ix": 236,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 335,
+              "end_ix": 336,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 337,
+              "end_ix": 338,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 470,
+              "end_ix": 471,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 472,
+              "end_ix": 492,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 493,
+              "end_ix": 494,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 494,
+              "end_ix": 494,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "request_id": "935a12796821232a-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0ab303e6-944d-4044-b1e6-3ad19c2903b1",
+      "children": [
+        "6ffdc644-6130-4edd-ab78-55b4516e48a5"
+      ]
+    },
+    "6ffdc644-6130-4edd-ab78-55b4516e48a5": {
+      "id": "6ffdc644-6130-4edd-ab78-55b4516e48a5",
+      "message": {
+        "id": "6ffdc644-6130-4edd-ab78-55b4516e48a5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745544638.5696259,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah, but the sugar-free ones will make me shit myself. I think I can afford to have one a day on carnivore what say you?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "935a13885ad6232a-ORD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2ea68271-450f-4a25-95de-d44c932878a3",
+      "children": [
+        "e2a62e4e-b40c-4207-b07e-23b8c06011d4"
+      ]
+    },
+    "e2a62e4e-b40c-4207-b07e-23b8c06011d4": {
+      "id": "e2a62e4e-b40c-4207-b07e-23b8c06011d4",
+      "message": {
+        "id": "e2a62e4e-b40c-4207-b07e-23b8c06011d4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745544639.724835,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah, one Werther’s a day on carnivore isn’t gonna send you to nutritional hell—especially if you’re doing this for lifestyle, mental clarity, or discipline and not some militant ketosis purity test. It’s like 3.7g of sugar, basically a whisper in the wind. That’s less than a cherry tomato or a sip of milk.\n\nIf it keeps you sane, gives you a little psychological treat, and doesn’t trigger cravings or derail you, it’s probably worth it. Just don’t let one turn into six. Carnivore is a blunt instrument—it works because it’s so strict. But you're human. You’re not trying to make offerings to the keto gods.\n\nSo yeah, keep your Werther’s. Just don’t chase it with a handful of sugar-free Haribos unless you want to test the limits of repentance."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "6ffdc644-6130-4edd-ab78-55b4516e48a5",
+          "request_id": "935a13885ad6232a-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6ffdc644-6130-4edd-ab78-55b4516e48a5",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "e2a62e4e-b40c-4207-b07e-23b8c06011d4",
+  "plugin_ids": null,
+  "conversation_id": "680adcba-24e8-800d-98e5-e03bfdbbd0bf",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.fairwaymarket.com/sm/planning/rsid/185/product/storck-werthers-original-sugar-free-caramel-hard-candies-770-oz-00072799051570?utm_source=chatgpt.com",
+    "https://www.werthers-original.us/en/products/hard-caramels/hard-candies?utm_source=chatgpt.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "id": "680adcba-24e8-800d-98e5-e03bfdbbd0bf"
+}

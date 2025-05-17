@@ -1,0 +1,257 @@
+{
+  "title": "Κύριε, ἐλέησον",
+  "create_time": 1744221500.523922,
+  "update_time": 1746705786.070233,
+  "mapping": {
+    "076c945b-4f22-4cc2-9f7a-c8b4d4a8da75": {
+      "id": "076c945b-4f22-4cc2-9f7a-c8b4d4a8da75",
+      "message": null,
+      "parent": null,
+      "children": [
+        "cce7eaed-b322-42a7-a1fc-8bac997bb1ba"
+      ]
+    },
+    "cce7eaed-b322-42a7-a1fc-8bac997bb1ba": {
+      "id": "cce7eaed-b322-42a7-a1fc-8bac997bb1ba",
+      "message": {
+        "id": "cce7eaed-b322-42a7-a1fc-8bac997bb1ba",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "076c945b-4f22-4cc2-9f7a-c8b4d4a8da75",
+      "children": [
+        "5469b321-bf63-4c51-b4a0-cb7f794ed2a3"
+      ]
+    },
+    "5469b321-bf63-4c51-b4a0-cb7f794ed2a3": {
+      "id": "5469b321-bf63-4c51-b4a0-cb7f794ed2a3",
+      "message": {
+        "id": "5469b321-bf63-4c51-b4a0-cb7f794ed2a3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744221500.009429,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is Lord have mercy in Greek?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "92dbe4582b711aeb-ORD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cce7eaed-b322-42a7-a1fc-8bac997bb1ba",
+      "children": [
+        "a4a8822c-d0ab-4687-aae6-e4bd264adfe4"
+      ]
+    },
+    "a4a8822c-d0ab-4687-aae6-e4bd264adfe4": {
+      "id": "a4a8822c-d0ab-4687-aae6-e4bd264adfe4",
+      "message": {
+        "id": "a4a8822c-d0ab-4687-aae6-e4bd264adfe4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744221502.716284,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "5469b321-bf63-4c51-b4a0-cb7f794ed2a3",
+          "request_id": "92dbe4582b711aeb-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5469b321-bf63-4c51-b4a0-cb7f794ed2a3",
+      "children": [
+        "f716da73-5a26-48a3-bb1a-241b9bfbbd8a"
+      ]
+    },
+    "f716da73-5a26-48a3-bb1a-241b9bfbbd8a": {
+      "id": "f716da73-5a26-48a3-bb1a-241b9bfbbd8a",
+      "message": {
+        "id": "f716da73-5a26-48a3-bb1a-241b9bfbbd8a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744221500.662287,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\"Lord, have mercy\" in Greek is:\n\n**Κύριε, ἐλέησον**  \n**(Kýrie, eléison)**\n\nThis phrase is often used in Greek Orthodox liturgy and prayers."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "a4a8822c-d0ab-4687-aae6-e4bd264adfe4",
+          "request_id": "92dbe4582b711aeb-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a4a8822c-d0ab-4687-aae6-e4bd264adfe4",
+      "children": [
+        "1e6673dc-dd0b-4240-8613-2399b2782739"
+      ]
+    },
+    "1e6673dc-dd0b-4240-8613-2399b2782739": {
+      "id": "1e6673dc-dd0b-4240-8613-2399b2782739",
+      "message": {
+        "id": "1e6673dc-dd0b-4240-8613-2399b2782739",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744221579.88502,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is Lord have mercy in Russian?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "92dbe64aa9551aeb-ORD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f716da73-5a26-48a3-bb1a-241b9bfbbd8a",
+      "children": [
+        "2758511f-4393-411a-9cd8-ace425ce7bd5"
+      ]
+    },
+    "2758511f-4393-411a-9cd8-ace425ce7bd5": {
+      "id": "2758511f-4393-411a-9cd8-ace425ce7bd5",
+      "message": {
+        "id": "2758511f-4393-411a-9cd8-ace425ce7bd5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744221580.656796,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\"Lord, have mercy\" in Russian is:\n\n**Господи, помилуй**  \n**(Gospodi, pomiluy)**\n\nIt's commonly used in the Russian Orthodox Church during prayers and liturgical services."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "1e6673dc-dd0b-4240-8613-2399b2782739",
+          "request_id": "92dbe64aa9551aeb-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1e6673dc-dd0b-4240-8613-2399b2782739",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "2758511f-4393-411a-9cd8-ace425ce7bd5",
+  "plugin_ids": null,
+  "conversation_id": "67f6b53c-4010-800d-ba92-9261a94ccc87",
+  "conversation_template_id": "g-p-68126593283481919aacf2a4bc67eceb",
+  "gizmo_id": "g-p-68126593283481919aacf2a4bc67eceb",
+  "gizmo_type": "snorlax",
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "id": "67f6b53c-4010-800d-ba92-9261a94ccc87"
+}

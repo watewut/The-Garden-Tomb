@@ -1,0 +1,803 @@
+{
+  "title": "Minute Waltz Mural",
+  "create_time": 1745022963.362863,
+  "update_time": 1745767243.563552,
+  "mapping": {
+    "7739477f-5b0d-4141-b3e8-648bfdc1e5ff": {
+      "id": "7739477f-5b0d-4141-b3e8-648bfdc1e5ff",
+      "message": null,
+      "parent": null,
+      "children": [
+        "0b0b4982-d6b0-4a55-8671-c4548c04b95f"
+      ]
+    },
+    "0b0b4982-d6b0-4a55-8671-c4548c04b95f": {
+      "id": "0b0b4982-d6b0-4a55-8671-c4548c04b95f",
+      "message": {
+        "id": "0b0b4982-d6b0-4a55-8671-c4548c04b95f",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7739477f-5b0d-4141-b3e8-648bfdc1e5ff",
+      "children": [
+        "e7e5d3ff-567f-4621-80fb-ec639d1df42e"
+      ]
+    },
+    "e7e5d3ff-567f-4621-80fb-ec639d1df42e": {
+      "id": "e7e5d3ff-567f-4621-80fb-ec639d1df42e",
+      "message": {
+        "id": "e7e5d3ff-567f-4621-80fb-ec639d1df42e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745022963.040772,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-8e7gMUXvsFhuTyp6hWwdxr",
+              "size_bytes": 957725,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "What song is this?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "height": 1152,
+              "id": "file-8e7gMUXvsFhuTyp6hWwdxr",
+              "name": "5E5F16E7-5D53-4161-B477-CF01EA3184D4.jpeg",
+              "size": 957725,
+              "width": 1536
+            }
+          ],
+          "request_id": "9328534fee0d13f2-ORD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0b0b4982-d6b0-4a55-8671-c4548c04b95f",
+      "children": [
+        "8f1a9d69-451f-4e4f-8653-5a46bbbe0739"
+      ]
+    },
+    "8f1a9d69-451f-4e4f-8653-5a46bbbe0739": {
+      "id": "8f1a9d69-451f-4e4f-8653-5a46bbbe0739",
+      "message": {
+        "id": "8f1a9d69-451f-4e4f-8653-5a46bbbe0739",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745022968.291456,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "e7e5d3ff-567f-4621-80fb-ec639d1df42e",
+          "request_id": "9328534fee0d13f2-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e7e5d3ff-567f-4621-80fb-ec639d1df42e",
+      "children": [
+        "ece8a06e-c5aa-4cd8-bfb4-bb447bac6358"
+      ]
+    },
+    "ece8a06e-c5aa-4cd8-bfb4-bb447bac6358": {
+      "id": "ece8a06e-c5aa-4cd8-bfb4-bb447bac6358",
+      "message": {
+        "id": "ece8a06e-c5aa-4cd8-bfb4-bb447bac6358",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745022965.761689,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "This mural is a well-known piece located in downtown Minneapolis, Minnesota. It features the sheet music of **Frédéric Chopin's \"Minute Waltz\" (Waltz in D-flat major, Op. 64, No. 1)**.\n\nThe mural is painted on the side of the Schmitt Music building and has been a famous local landmark for decades. The “Minute Waltz” is a technically demanding piece, often recognized for its lively tempo and charming character. Despite its nickname, it actually takes around one and a half to two minutes to play."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "8f1a9d69-451f-4e4f-8653-5a46bbbe0739",
+          "request_id": "9328534fee0d13f2-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8f1a9d69-451f-4e4f-8653-5a46bbbe0739",
+      "children": [
+        "c2bc968b-4d2e-4b7f-816a-3db2e000665e"
+      ]
+    },
+    "c2bc968b-4d2e-4b7f-816a-3db2e000665e": {
+      "id": "c2bc968b-4d2e-4b7f-816a-3db2e000665e",
+      "message": {
+        "id": "c2bc968b-4d2e-4b7f-816a-3db2e000665e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745022991.004459,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Give me a YouTube Music link to listen to that"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "932853fdf8af13f2-ORD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ece8a06e-c5aa-4cd8-bfb4-bb447bac6358",
+      "children": [
+        "b9632dd2-b6a9-4837-bb3b-8f611199028d"
+      ]
+    },
+    "b9632dd2-b6a9-4837-bb3b-8f611199028d": {
+      "id": "b9632dd2-b6a9-4837-bb3b-8f611199028d",
+      "message": {
+        "id": "b9632dd2-b6a9-4837-bb3b-8f611199028d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745022991.354726,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"Give me a YouTube Music link to listen to that\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop"
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "c2bc968b-4d2e-4b7f-816a-3db2e000665e",
+          "request_id": "932853fdf8af13f2-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "c2bc968b-4d2e-4b7f-816a-3db2e000665e",
+      "children": [
+        "ead241b4-942c-435c-850a-b9e3c962ca12"
+      ]
+    },
+    "ead241b4-942c-435c-850a-b9e3c962ca12": {
+      "id": "ead241b4-942c-435c-850a-b9e3c962ca12",
+      "message": {
+        "id": "ead241b4-942c-435c-850a-b9e3c962ca12",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {}
+        },
+        "create_time": 1745022992.231877,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "command": "search",
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "b9632dd2-b6a9-4837-bb3b-8f611199028d",
+          "request_id": "932853fdf8af13f2-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "b9632dd2-b6a9-4837-bb3b-8f611199028d",
+      "children": [
+        "210bf5a2-4f39-4241-9d21-88d2123c9d3f"
+      ]
+    },
+    "210bf5a2-4f39-4241-9d21-88d2123c9d3f": {
+      "id": "210bf5a2-4f39-4241-9d21-88d2123c9d3f",
+      "message": {
+        "id": "210bf5a2-4f39-4241-9d21-88d2123c9d3f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1745022992.2321286,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "​You can listen to Frédéric Chopin's \"Minute Waltz\" (Waltz in D-flat major, Op. 64, No. 1) on YouTube Music by visiting the following link:\n\n👉 linkturn0search0\n\nThis performance features a rendition of the piece, allowing you to enjoy Chopin's lively and technically demanding composition. The \"Minute Waltz\" is renowned for its brisk tempo and charming character, making it a favorite among classical piano enthusiasts. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "debug_sonic_thread_id": "thread_6802f0103424800da4abde8a6b43a221",
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "youtube.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=3H0SRv8QNwk",
+                  "title": "Chopin - Minute Waltz (Op. 64 No. 1) - YouTube",
+                  "snippet": "Chopin - Minute Waltz (Op. 64 No. 1) Sheet music: https://www.patreon.com/posts/sheet-music-op-1-22219003 Click the bell to join the ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": 1540166400.0,
+                  "attributions": null,
+                  "attribution": "YouTube"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=hKILwVH_MdM",
+                  "title": "Lang Lang - Chopin Minute Waltz Op. 64 No. 1 - YouTube",
+                  "snippet": "Classical piano sensation Lang Lang performs Chopin \"Minute Waltz\" Op. 64 No. 1 during a rehearsal at Boston's Symphony Hall on February 27, ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": 1362182400.0,
+                  "attributions": null,
+                  "attribution": "YouTube"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=TJu32ueJm04",
+                  "title": "Chopin \"Minute Waltz\" Paul Barton, FEURICH 133 piano - YouTube",
+                  "snippet": "When someone asked Victor Borge how long it takes to play the Minute Waltz, he said, “15 years, if you want to get it just right!”",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": 1613779200.0,
+                  "attributions": null,
+                  "attribution": "YouTube"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=X2JCxapd5hU",
+                  "title": "Chopin. Valse op 64 No. 1 Valentina Lisitsa \"Minute Waltz\" - YouTube",
+                  "snippet": "Please, pleeeeease , don't succumb to a common mistake of thinking of it as \"An-under-minute-waltz\". It would be called a \"Bumblebee waltz\" ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": 1294704000.0,
+                  "attributions": null,
+                  "attribution": "YouTube"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=NJf1BlX-A4Q",
+                  "title": "\"Minute Waltz\" by Frédéric Chopin (\"Valse du petit chien ... - YouTube",
+                  "snippet": "To listen on Spotify, Apple Music, Deezer etc: https://backl.ink/146412296 One of the most famous compositions by the Honorary President ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": 1618531200.0,
+                  "attributions": null,
+                  "attribution": "YouTube"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=UctwqtriVGo",
+                  "title": "Chopin Minute Waltz, Op. 64 No. 1 | Tzvi Erez - YouTube",
+                  "snippet": "iTunes: https://music.apple.com/ca/album/chopin-piano-essentials/1479257873 Spotify: ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": 1569110400.0,
+                  "attributions": null,
+                  "attribution": "YouTube"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=Bu0axDMnE8s",
+                  "title": "F. Chopin: Minutenwalzer - Minute Waltz - Aniko Drabon, Piano",
+                  "snippet": "Album on iTunes: https://itunes.apple.com/ie/album/piano-masterworks/id779650866 Watch more: https://www.youtube.com/watch?v=82G-KuSMQzg ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": 1390003200.0,
+                  "attributions": null,
+                  "attribution": "YouTube"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?pp=0gcJCfcAhR29_xXO&v=cK20R-HNOs4",
+                  "title": "\"Minute Waltz\" (Valse du petit chien) - Chopin - YouTube",
+                  "snippet": "... channel! Please leave a comment if you have any pieces that you ... Waltz #Piano #Pianist #Traum #Music #Visualiser #Classical #Romantin.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "content_type": null,
+                  "pub_date": 1594252800.0,
+                  "attributions": null,
+                  "attribution": "YouTube"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=V9xoBcygSnU",
+                  "title": "Chopin \"Minute Waltz\" Op.64 No.1 - P. Barton, FEURICH piano",
+                  "snippet": "... music in the public domain from IMSLP Music Library: https ... link for those that like to support original online content ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "content_type": null,
+                  "pub_date": 1683504000.0,
+                  "attributions": null,
+                  "attribution": "YouTube"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "musescore.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://musescore.com/classicman/scores/73075?srsltid=AfmBOoqsef3qzX-H5e_qgRse26t9-ZtdYAeRP0elfcW3qR-8X7optcjM",
+                  "title": "Waltz Opus 64, No. 1 in D Major “Minute Waltz” - MuseScore.com",
+                  "snippet": "The Waltz in D flat major, Op. 64, No. 1, popularly known as the Minute Waltz, is a waltz for solo piano whose music was composed by Frédéric Chopin.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "content_type": null,
+                  "pub_date": 1353196800.0,
+                  "attributions": null,
+                  "attribution": "MuseScore"
+                }
+              ]
+            }
+          ],
+          "safe_urls": [
+            "https://www.youtube.com/watch?v=3H0SRv8QNwk&utm_source=chatgpt.com"
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "ead241b4-942c-435c-850a-b9e3c962ca12",
+          "content_references": [
+            {
+              "matched_text": "",
+              "start_idx": 0,
+              "end_idx": 1,
+              "safe_urls": [
+                "https://music.youtube.com/search?q=&utm_source=chatgpt.com",
+                "https://music.youtube.com/search?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "navigation",
+              "domains": [
+                {
+                  "title": "Frédéric Chopin - Minute Waltz on YouTube Music",
+                  "subtitle": "youtube.com",
+                  "domain": "youtube.com",
+                  "url": "https://music.youtube.com/search?utm_source=chatgpt.com",
+                  "sub_domains": [
+                    {
+                      "url": "https://music.youtube.com/search?q=&utm_source=chatgpt.com",
+                      "title": "YouTube Music"
+                    }
+                  ],
+                  "attribution": "YouTube Music"
+                }
+              ]
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1,
+              "end_idx": 2,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "You can listen to Frédéric Chopin's \"Minute Waltz\" (Waltz in D-flat major, Op. 64, No. 1) on YouTube Music by visiting the following link:",
+              "start_idx": 2,
+              "end_idx": 140,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "You can listen to Frédéric Chopin's \"Minute Waltz\" (Waltz in D-flat major, Op. 64, No. 1) on YouTube Music by visiting the following link:",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "0-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 140,
+              "end_idx": 141,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 141,
+              "end_idx": 142,
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "linkturn0search0",
+              "start_idx": 146,
+              "end_idx": 165,
+              "refs": [],
+              "alt": "([YouTube](https://www.youtube.com/watch?v=3H0SRv8QNwk&utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Chopin - Minute Waltz (Op. 64 No. 1) - YouTube",
+                  "url": "https://www.youtube.com/watch?v=3H0SRv8QNwk&utm_source=chatgpt.com",
+                  "pub_date": 1540166400.0,
+                  "snippet": "Chopin - Minute Waltz (Op. 64 No. 1) Sheet music: https://www.patreon.com/posts/sheet-music-op-1-22219003 Click the bell to join the ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "YouTube"
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2_link"
+            },
+            {
+              "matched_text": "",
+              "start_idx": 167,
+              "end_idx": 168,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "This performance features a rendition of the piece, allowing you to enjoy Chopin's lively and technically demanding composition.",
+              "start_idx": 168,
+              "end_idx": 296,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "This performance features a rendition of the piece, allowing you to enjoy Chopin's lively and technically demanding composition.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "142-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 296,
+              "end_idx": 297,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 298,
+              "end_idx": 299,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "The \"Minute Waltz\" is renowned for its brisk tempo and charming character, making it a favorite among classical piano enthusiasts.",
+              "start_idx": 299,
+              "end_idx": 429,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "The \"Minute Waltz\" is renowned for its brisk tempo and charming character, making it a favorite among classical piano enthusiasts.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "142-1",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 429,
+              "end_idx": 430,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 430,
+              "end_idx": 431,
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 431,
+              "end_idx": 431,
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Chopin - Minute Waltz (Op. 64 No. 1) - YouTube",
+                  "url": "https://www.youtube.com/watch?v=3H0SRv8QNwk&utm_source=chatgpt.com",
+                  "attribution": "YouTube"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "citations": [
+            {
+              "start_ix": 1,
+              "end_ix": 2,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 140,
+              "end_ix": 141,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 141,
+              "end_ix": 142,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 146,
+              "end_ix": 165,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 167,
+              "end_ix": 168,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 296,
+              "end_ix": 297,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 298,
+              "end_ix": 299,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 429,
+              "end_ix": 430,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 430,
+              "end_ix": 431,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 431,
+              "end_ix": 431,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "message_locale": "en-US",
+          "image_results": [],
+          "request_id": "932853fdf8af13f2-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ead241b4-942c-435c-850a-b9e3c962ca12",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "210bf5a2-4f39-4241-9d21-88d2123c9d3f",
+  "plugin_ids": null,
+  "conversation_id": "6802eff3-3df0-800d-b3ab-2646bea4c8ae",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.youtube.com/watch?v=3H0SRv8QNwk&utm_source=chatgpt.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "id": "6802eff3-3df0-800d-b3ab-2646bea4c8ae"
+}

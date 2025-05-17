@@ -1,0 +1,182 @@
+{
+  "title": "Letter Editing Request",
+  "create_time": 1744400694.221529,
+  "update_time": 1745767148.79858,
+  "mapping": {
+    "client-created-root": {
+      "id": "client-created-root",
+      "message": null,
+      "parent": null,
+      "children": [
+        "17a8914c-cc9d-42fc-b656-4d0ccc4176dd"
+      ]
+    },
+    "17a8914c-cc9d-42fc-b656-4d0ccc4176dd": {
+      "id": "17a8914c-cc9d-42fc-b656-4d0ccc4176dd",
+      "message": {
+        "id": "17a8914c-cc9d-42fc-b656-4d0ccc4176dd",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "client-created-root",
+      "children": [
+        "62c58d21-3dda-4a42-9aa1-1e942e010c19"
+      ]
+    },
+    "62c58d21-3dda-4a42-9aa1-1e942e010c19": {
+      "id": "62c58d21-3dda-4a42-9aa1-1e942e010c19",
+      "message": {
+        "id": "62c58d21-3dda-4a42-9aa1-1e942e010c19",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744400581.938,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Edit this for grammar and punctuation and format properly\n\nTo whom it may concern,\r\n\tRegarding the court's review of Kevin Fossen’s case, I would like to offer my personal experience with him for your consideration. For the better part of the last year, I have had the pleasure of getting to know Kevin quite closely within the recovery community of Dickinson, ND.  \r\n\r\nKevin has grown to be a pillar of our community.  he is exceedingly compassionate and has dedicated his daily life to the service of others struggling with drug and alcohol addiction.  he has worked tirelessly to become a certified peer support specialist and has thrown himself completely into the work.  he  organizes and leads 3 narcotics anonymous meetings in town and gives struggling addicts a place to turn for  support in their recovery. although he is too humble to admit it, I remember the night Kevin sprinted barefoot through snow and gravel to administer Narcan to a fellow addict that was overdosing, thereby saving his life.  I think that story is the best example of how Kevin treats other people.  I know that if I were ever struggling or having difficulties he  is the type of man that would drop what he's doing and rush to help.  \r\n\r\nI've come to know him as reliable, trustworthy and loyal to a fault.  not only for people that he's developed close relationships with either.  he'll go out of his way to greet any newcomer to NA or aa  as soon as they walk through the doors of the rooms.  the patients at heart view have also become reliant on Kevin's support.  I remember last New Year's at the Alcoholics Anonymous party one of the patients was really struggling with the holiday and Kevin would not leave her side the entire night. \r\n\r\n He has been an example of repentance and redemption  to me and many others.   the most striking quality about listening to Kevin share  about his life  or discuss his past,  is that he is relentlessly accountable.  he takes extreme ownership of every aspect of his  actions.  I have never heard him make an excuse or blame anyone else for the consequences of his decisions. \r\n\r\n I respect and admire Kevin very deeply.  he is an example of self sacrificial love and  there is absolutely no doubt in my mind that he will continue to flourish and grow.  I thank God for his friendship, compassion and leadership within our community.  his story is 1 of repentance and redemption and my prayer is that he would be allowed to continue to blossom and thrive because he is a blessing to everyone around him.\r\n\r\nRespectfully, \r\nJoseph Scanlon\r"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "92ecfb30b9b16d2d-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "17a8914c-cc9d-42fc-b656-4d0ccc4176dd",
+      "children": [
+        "294939cd-56d8-48b3-9932-9fe2091ad2f1"
+      ]
+    },
+    "294939cd-56d8-48b3-9932-9fe2091ad2f1": {
+      "id": "294939cd-56d8-48b3-9932-9fe2091ad2f1",
+      "message": {
+        "id": "294939cd-56d8-48b3-9932-9fe2091ad2f1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744400703.392922,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "62c58d21-3dda-4a42-9aa1-1e942e010c19",
+          "request_id": "92ecfb30b9b16d2d-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "62c58d21-3dda-4a42-9aa1-1e942e010c19",
+      "children": [
+        "bd35f71e-b5b4-4fe3-bf45-2c94b1c8c189"
+      ]
+    },
+    "bd35f71e-b5b4-4fe3-bf45-2c94b1c8c189": {
+      "id": "bd35f71e-b5b4-4fe3-bf45-2c94b1c8c189",
+      "message": {
+        "id": "bd35f71e-b5b4-4fe3-bf45-2c94b1c8c189",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744400694.249766,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Certainly! Here's your letter, edited for grammar, punctuation, and formatting:\n\n---\n\n**To Whom It May Concern,**\n\nRegarding the court's review of Kevin Fossen’s case, I would like to offer my personal experience with him for your consideration. For the better part of the last year, I have had the pleasure of getting to know Kevin quite closely within the recovery community of Dickinson, ND.\n\nKevin has grown to be a pillar of our community. He is exceedingly compassionate and has dedicated his daily life to the service of others struggling with drug and alcohol addiction. He has worked tirelessly to become a certified peer support specialist and has thrown himself completely into the work. He organizes and leads three Narcotics Anonymous meetings in town and gives struggling addicts a place to turn for support in their recovery.\n\nAlthough he is too humble to admit it, I remember the night Kevin sprinted barefoot through snow and gravel to administer Narcan to a fellow addict who was overdosing—thereby saving his life. I think that story is the best example of how Kevin treats other people. I know that if I were ever struggling or having difficulties, he is the type of man who would drop what he's doing and rush to help.\n\nI've come to know him as reliable, trustworthy, and loyal to a fault—not only to people with whom he has close relationships, either. He'll go out of his way to greet any newcomer to NA or AA as soon as they walk through the doors. The patients at Heartview have also become reliant on Kevin's support. I remember last New Year’s at the Alcoholics Anonymous party, one of the patients was really struggling with the holiday, and Kevin would not leave her side the entire night.\n\nHe has been an example of repentance and redemption to me and many others. The most striking quality about listening to Kevin share about his life or discuss his past is that he is relentlessly accountable. He takes extreme ownership of every aspect of his actions. I have never heard him make an excuse or blame anyone else for the consequences of his decisions.\n\nI respect and admire Kevin very deeply. He is an example of self-sacrificial love, and there is absolutely no doubt in my mind that he will continue to flourish and grow. I thank God for his friendship, compassion, and leadership within our community. His story is one of repentance and redemption, and my prayer is that he would be allowed to continue to blossom and thrive—because he is a blessing to everyone around him.\n\n**Respectfully,**  \nJoseph Scanlon\n\n---\n\nLet me know if you'd like it formatted for printing or submitted digitally, or if you'd like to add anything else."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "294939cd-56d8-48b3-9932-9fe2091ad2f1",
+          "request_id": "92ecfb30b9b16d2d-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "294939cd-56d8-48b3-9932-9fe2091ad2f1",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "bd35f71e-b5b4-4fe3-bf45-2c94b1c8c189",
+  "plugin_ids": null,
+  "conversation_id": "67f97135-ef38-800d-9c22-daef0f34b45a",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "id": "67f97135-ef38-800d-9c22-daef0f34b45a"
+}

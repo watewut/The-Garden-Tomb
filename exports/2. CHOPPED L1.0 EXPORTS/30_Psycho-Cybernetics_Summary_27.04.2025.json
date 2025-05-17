@@ -1,0 +1,209 @@
+{
+  "title": "Psycho-Cybernetics Summary",
+  "create_time": 1696290881.807053,
+  "update_time": 1745767361.513837,
+  "mapping": {
+    "ac037e3a-a095-4cca-ad0d-439fd5012e93": {
+      "id": "ac037e3a-a095-4cca-ad0d-439fd5012e93",
+      "message": {
+        "id": "ac037e3a-a095-4cca-ad0d-439fd5012e93",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa135c1-ea1a-43a2-8503-636f83e22537",
+      "children": [
+        "aaa20d5e-481a-408e-8607-5ee4244e8c1d"
+      ]
+    },
+    "aaa135c1-ea1a-43a2-8503-636f83e22537": {
+      "id": "aaa135c1-ea1a-43a2-8503-636f83e22537",
+      "message": null,
+      "parent": null,
+      "children": [
+        "ac037e3a-a095-4cca-ad0d-439fd5012e93"
+      ]
+    },
+    "aaa20d5e-481a-408e-8607-5ee4244e8c1d": {
+      "id": "aaa20d5e-481a-408e-8607-5ee4244e8c1d",
+      "message": {
+        "id": "aaa20d5e-481a-408e-8607-5ee4244e8c1d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1696290881.807755,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "summarize Psycho-Cybernetics\nBook by Maxwell Maltz\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ac037e3a-a095-4cca-ad0d-439fd5012e93",
+      "children": [
+        "2255180d-9120-4626-bf9f-20f1c44b7ae2"
+      ]
+    },
+    "2255180d-9120-4626-bf9f-20f1c44b7ae2": {
+      "id": "2255180d-9120-4626-bf9f-20f1c44b7ae2",
+      "message": {
+        "id": "2255180d-9120-4626-bf9f-20f1c44b7ae2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1696290889.532401,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\"Psycho-Cybernetics\" is a self-help book written by Maxwell Maltz. It explores the concept of self-image and its impact on human behavior and success. Maltz argues that individuals can achieve their goals and improve their lives by changing their self-image and beliefs. He emphasizes the power of the mind in shaping one's reality and offers practical techniques to harness this power for personal growth and success. The book delves into the relationship between the mind and self-confidence, providing insights into how individuals can overcome self-doubt and achieve their full potential."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa20d5e-481a-408e-8607-5ee4244e8c1d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa20d5e-481a-408e-8607-5ee4244e8c1d",
+      "children": [
+        "aaa23ba4-fcb1-4eff-9fc5-e78b9df9bd99"
+      ]
+    },
+    "aaa23ba4-fcb1-4eff-9fc5-e78b9df9bd99": {
+      "id": "aaa23ba4-fcb1-4eff-9fc5-e78b9df9bd99",
+      "message": {
+        "id": "aaa23ba4-fcb1-4eff-9fc5-e78b9df9bd99",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1696290908.425889,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "cliffs notes"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2255180d-9120-4626-bf9f-20f1c44b7ae2",
+      "children": [
+        "b059f134-8b3d-4783-af7f-3a2ea42c210e"
+      ]
+    },
+    "b059f134-8b3d-4783-af7f-3a2ea42c210e": {
+      "id": "b059f134-8b3d-4783-af7f-3a2ea42c210e",
+      "message": {
+        "id": "b059f134-8b3d-4783-af7f-3a2ea42c210e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1696290912.002437,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Certainly! \"Psycho-Cybernetics\" by Maxwell Maltz is a self-help classic that focuses on the relationship between self-image, self-esteem, and success. The book argues that individuals can improve their lives and achieve their goals by changing their self-image and beliefs. Maltz emphasizes the power of the mind in shaping one's reality and offers practical techniques to boost self-confidence and overcome self-doubt. The book provides valuable insights into personal growth and achieving one's full potential."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa23ba4-fcb1-4eff-9fc5-e78b9df9bd99",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa23ba4-fcb1-4eff-9fc5-e78b9df9bd99",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "b059f134-8b3d-4783-af7f-3a2ea42c210e",
+  "plugin_ids": null,
+  "conversation_id": "a53ec7bb-e0ee-4768-afc5-0aa326d707f0",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "id": "a53ec7bb-e0ee-4768-afc5-0aa326d707f0"
+}

@@ -1,0 +1,713 @@
+{
+  "title": "FCRA Penalty for False Pretenses",
+  "create_time": 1745285621.059398,
+  "update_time": 1745767235.573265,
+  "mapping": {
+    "24f87761-1205-49f1-9718-6884dd4c2608": {
+      "id": "24f87761-1205-49f1-9718-6884dd4c2608",
+      "message": null,
+      "parent": null,
+      "children": [
+        "4a0d01cc-c603-45a7-9d3a-7b3bf9146107"
+      ]
+    },
+    "4a0d01cc-c603-45a7-9d3a-7b3bf9146107": {
+      "id": "4a0d01cc-c603-45a7-9d3a-7b3bf9146107",
+      "message": {
+        "id": "4a0d01cc-c603-45a7-9d3a-7b3bf9146107",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "24f87761-1205-49f1-9718-6884dd4c2608",
+      "children": [
+        "51d1f802-5c1a-4656-9518-91f123aa1e31"
+      ]
+    },
+    "51d1f802-5c1a-4656-9518-91f123aa1e31": {
+      "id": "51d1f802-5c1a-4656-9518-91f123aa1e31",
+      "message": {
+        "id": "51d1f802-5c1a-4656-9518-91f123aa1e31",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745285620.200521,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-15XaGP2Dx8Jiknv2LhmKU1",
+              "size_bytes": 579931,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "size": 579931,
+              "width": 1536,
+              "name": "IMG_E4D33CFC-AFDF-4EF9-9CE8-E9E86FDE530C.jpeg",
+              "height": 1152,
+              "id": "file-15XaGP2Dx8Jiknv2LhmKU1"
+            }
+          ],
+          "request_id": "93415fd9f982dac2-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4a0d01cc-c603-45a7-9d3a-7b3bf9146107",
+      "children": [
+        "2112c847-7c78-46c4-99ae-3e2a6d33d4fc"
+      ]
+    },
+    "2112c847-7c78-46c4-99ae-3e2a6d33d4fc": {
+      "id": "2112c847-7c78-46c4-99ae-3e2a6d33d4fc",
+      "message": {
+        "id": "2112c847-7c78-46c4-99ae-3e2a6d33d4fc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745285625.344507,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "51d1f802-5c1a-4656-9518-91f123aa1e31",
+          "request_id": "93415fd9f982dac2-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "51d1f802-5c1a-4656-9518-91f123aa1e31",
+      "children": [
+        "d02508aa-1acd-4970-a529-b4f6b6cf402d"
+      ]
+    },
+    "d02508aa-1acd-4970-a529-b4f6b6cf402d": {
+      "id": "d02508aa-1acd-4970-a529-b4f6b6cf402d",
+      "message": {
+        "id": "d02508aa-1acd-4970-a529-b4f6b6cf402d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745285621.99721,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The question asks about the maximum penalty for obtaining Consumer Information Reports under false pretenses according to the **Fair Credit Reporting Act (FCRA)**.\n\nUnder the FCRA, **any person who knowingly and willfully obtains information from a consumer reporting agency under false pretenses** can be fined **up to $5,000**.\n\n**Correct answer: C. $5,000**."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "2112c847-7c78-46c4-99ae-3e2a6d33d4fc",
+          "request_id": "93415fd9f982dac2-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2112c847-7c78-46c4-99ae-3e2a6d33d4fc",
+      "children": [
+        "39276e8a-ee61-4a08-8e7e-3c19118856f1"
+      ]
+    },
+    "39276e8a-ee61-4a08-8e7e-3c19118856f1": {
+      "id": "39276e8a-ee61-4a08-8e7e-3c19118856f1",
+      "message": {
+        "id": "39276e8a-ee61-4a08-8e7e-3c19118856f1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745285748.043602,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-42MwX65AxNjr4CNAwk7pbd",
+              "size_bytes": 701715,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-42MwX65AxNjr4CNAwk7pbd",
+              "size": 701715,
+              "name": "IMG_DD03B39B-D33D-4B08-8C85-ECAB9B2CACB3.jpeg",
+              "height": 1152,
+              "width": 1536
+            }
+          ],
+          "request_id": "934162f7db0edac2-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d02508aa-1acd-4970-a529-b4f6b6cf402d",
+      "children": [
+        "91524d79-932d-4ea7-8c85-5b33421ef98c"
+      ]
+    },
+    "91524d79-932d-4ea7-8c85-5b33421ef98c": {
+      "id": "91524d79-932d-4ea7-8c85-5b33421ef98c",
+      "message": {
+        "id": "91524d79-932d-4ea7-8c85-5b33421ef98c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745285749.318516,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The question asks who regulates an insurer’s claim settlement practices.\n\nThe correct answer is:\n\n**B. State insurance departments**\n\nEach state's **insurance department** is responsible for regulating the business of insurance, including **claim settlement practices**, to ensure fair treatment of policyholders. While organizations like the NAIC help develop model laws and guidelines, actual regulation and enforcement occur at the **state level**."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "39276e8a-ee61-4a08-8e7e-3c19118856f1",
+          "request_id": "934162f7db0edac2-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "39276e8a-ee61-4a08-8e7e-3c19118856f1",
+      "children": [
+        "71b475f4-0fd0-4e65-a58e-9bd0673a7094"
+      ]
+    },
+    "71b475f4-0fd0-4e65-a58e-9bd0673a7094": {
+      "id": "71b475f4-0fd0-4e65-a58e-9bd0673a7094",
+      "message": {
+        "id": "71b475f4-0fd0-4e65-a58e-9bd0673a7094",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745294385.482261,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-CZbvEDFjFsrj7xFNLmocFq",
+              "size_bytes": 502782,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-CZbvEDFjFsrj7xFNLmocFq",
+              "name": "IMG_07F675FC-B339-4E85-AF0C-2D851E7AC0DB.jpeg",
+              "width": 1536,
+              "height": 1152,
+              "size": 502782
+            }
+          ],
+          "request_id": "934235d9bbfe764a-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "91524d79-932d-4ea7-8c85-5b33421ef98c",
+      "children": [
+        "4fe129a5-6114-48e6-a418-477558f65f64"
+      ]
+    },
+    "4fe129a5-6114-48e6-a418-477558f65f64": {
+      "id": "4fe129a5-6114-48e6-a418-477558f65f64",
+      "message": {
+        "id": "4fe129a5-6114-48e6-a418-477558f65f64",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745294392.152053,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "rebase_system_message": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "71b475f4-0fd0-4e65-a58e-9bd0673a7094",
+          "request_id": "934235d9bbfe764a-OMA",
+          "timestamp_": "absolute",
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "71b475f4-0fd0-4e65-a58e-9bd0673a7094",
+      "children": [
+        "cd49f3ae-9255-4637-b078-23e4a1d8c9ee"
+      ]
+    },
+    "cd49f3ae-9255-4637-b078-23e4a1d8c9ee": {
+      "id": "cd49f3ae-9255-4637-b078-23e4a1d8c9ee",
+      "message": {
+        "id": "cd49f3ae-9255-4637-b078-23e4a1d8c9ee",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745294392.15218,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "4fe129a5-6114-48e6-a418-477558f65f64",
+          "request_id": "934235d9bbfe764a-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4fe129a5-6114-48e6-a418-477558f65f64",
+      "children": [
+        "01351574-abf6-463c-b895-bf7614ae5900"
+      ]
+    },
+    "01351574-abf6-463c-b895-bf7614ae5900": {
+      "id": "01351574-abf6-463c-b895-bf7614ae5900",
+      "message": {
+        "id": "01351574-abf6-463c-b895-bf7614ae5900",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745294388.295993,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The question is asking what type of authority is given to a producer that is **not specifically addressed in their contract**.\n\nThe correct answer is:\n\n**C. Implied**\n\n**Implied authority** refers to powers not explicitly written in the contract but that are necessary to carry out the duties that are. For example, a producer might have implied authority to collect premiums, even if it's not directly stated in the contract.\n\nYou selected the right answer — nicely done!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "cd49f3ae-9255-4637-b078-23e4a1d8c9ee",
+          "request_id": "934235d9bbfe764a-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cd49f3ae-9255-4637-b078-23e4a1d8c9ee",
+      "children": [
+        "073bbd98-e47e-42c1-a904-d2421d060035"
+      ]
+    },
+    "073bbd98-e47e-42c1-a904-d2421d060035": {
+      "id": "073bbd98-e47e-42c1-a904-d2421d060035",
+      "message": {
+        "id": "073bbd98-e47e-42c1-a904-d2421d060035",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745294429.6099849,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-TGYjaE2wgjK19MD4rWPTzk",
+              "size_bytes": 492153,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "height": 1152,
+              "id": "file-TGYjaE2wgjK19MD4rWPTzk",
+              "size": 492153,
+              "width": 1536,
+              "name": "IMG_BAE06C8B-4D4E-4501-A326-06B1F1A3AA4D.jpeg"
+            }
+          ],
+          "request_id": "934236ee582c764a-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "01351574-abf6-463c-b895-bf7614ae5900",
+      "children": [
+        "e2876c75-d80f-4009-b5a0-cd9efa6f1ac3"
+      ]
+    },
+    "e2876c75-d80f-4009-b5a0-cd9efa6f1ac3": {
+      "id": "e2876c75-d80f-4009-b5a0-cd9efa6f1ac3",
+      "message": {
+        "id": "e2876c75-d80f-4009-b5a0-cd9efa6f1ac3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745294432.304048,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The question is asking about a contract where both parties **may not receive equal value**.\n\nThe correct answer is:\n\n**A. Aleatory**\n\nAn **aleatory contract** is one in which the performance of one or both parties is contingent on an uncertain event. In insurance, this means the insurer may pay out significantly more than the insured paid in premiums—or nothing at all—depending on whether a covered event occurs.\n\nYou chose **A. Aleatory**, which is **correct**. Nice work!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "073bbd98-e47e-42c1-a904-d2421d060035",
+          "request_id": "934236ee582c764a-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "073bbd98-e47e-42c1-a904-d2421d060035",
+      "children": [
+        "d353307b-bc9a-41c4-ac60-2f90978e255d"
+      ]
+    },
+    "d353307b-bc9a-41c4-ac60-2f90978e255d": {
+      "id": "d353307b-bc9a-41c4-ac60-2f90978e255d",
+      "message": {
+        "id": "d353307b-bc9a-41c4-ac60-2f90978e255d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745294521.205627,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-P3ptBYAyY9wSQivcdKh4ey",
+              "size_bytes": 4120385,
+              "width": 1152,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "size": 4120385,
+              "width": 1152,
+              "height": 1536,
+              "name": "IMG_B679E31A-4B38-4657-A299-27FD90D77496.jpeg",
+              "id": "file-P3ptBYAyY9wSQivcdKh4ey"
+            }
+          ],
+          "request_id": "934239283e1e764a-OMA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e2876c75-d80f-4009-b5a0-cd9efa6f1ac3",
+      "children": [
+        "2c686c60-43d0-44fd-bcc9-c912f6b1bee2"
+      ]
+    },
+    "2c686c60-43d0-44fd-bcc9-c912f6b1bee2": {
+      "id": "2c686c60-43d0-44fd-bcc9-c912f6b1bee2",
+      "message": {
+        "id": "2c686c60-43d0-44fd-bcc9-c912f6b1bee2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745294523.017263,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "This question asks about the nature of an insurance contract where **only the insurer is legally obligated to perform** once the premium is paid.\n\nThe correct answer is:\n\n**C. Unilateral**\n\nA **unilateral contract** is one in which **only one party** (in this case, the insurer) makes a legally enforceable promise. The insured is **not legally bound** to do anything (they can stop paying premiums), but if they do pay, the insurer must fulfill the coverage.\n\nYou selected **C. Unilateral**, which is **correct** — keep it up!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "d353307b-bc9a-41c4-ac60-2f90978e255d",
+          "request_id": "934239283e1e764a-OMA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d353307b-bc9a-41c4-ac60-2f90978e255d",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "2c686c60-43d0-44fd-bcc9-c912f6b1bee2",
+  "plugin_ids": null,
+  "conversation_id": "6806f1f4-df54-800d-8e5a-8df3c8977085",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "id": "6806f1f4-df54-800d-8e5a-8df3c8977085"
+}

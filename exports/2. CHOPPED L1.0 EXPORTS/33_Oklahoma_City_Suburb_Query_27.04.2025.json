@@ -1,0 +1,2597 @@
+{
+  "title": "Oklahoma City Suburb Query",
+  "create_time": 1743634468.415742,
+  "update_time": 1745767306.445167,
+  "mapping": {
+    "4bf7b1a5-af34-42be-95de-3e80e9021ff6": {
+      "id": "4bf7b1a5-af34-42be-95de-3e80e9021ff6",
+      "message": null,
+      "parent": null,
+      "children": [
+        "3aa87556-24ff-49f3-8838-320dfd024b05"
+      ]
+    },
+    "3aa87556-24ff-49f3-8838-320dfd024b05": {
+      "id": "3aa87556-24ff-49f3-8838-320dfd024b05",
+      "message": {
+        "id": "3aa87556-24ff-49f3-8838-320dfd024b05",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4bf7b1a5-af34-42be-95de-3e80e9021ff6",
+      "children": [
+        "ef3c3299-a52d-4916-879c-530a65195295"
+      ]
+    },
+    "ef3c3299-a52d-4916-879c-530a65195295": {
+      "id": "ef3c3299-a52d-4916-879c-530a65195295",
+      "message": {
+        "id": "ef3c3299-a52d-4916-879c-530a65195295",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743634467.87851,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What’s the name of the Oklahoma city suburb that sounds kind of like a national park or maybe a place in Washington state"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "92a3e8815c07c974-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3aa87556-24ff-49f3-8838-320dfd024b05",
+      "children": [
+        "7727e9d9-cdc3-4177-8d99-351ecd79da7d"
+      ]
+    },
+    "7727e9d9-cdc3-4177-8d99-351ecd79da7d": {
+      "id": "7727e9d9-cdc3-4177-8d99-351ecd79da7d",
+      "message": {
+        "id": "7727e9d9-cdc3-4177-8d99-351ecd79da7d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743634470.388857,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "ef3c3299-a52d-4916-879c-530a65195295",
+          "request_id": "92a3e8815c07c974-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ef3c3299-a52d-4916-879c-530a65195295",
+      "children": [
+        "4da7c63f-55fb-4c2f-916e-16dbd0487450"
+      ]
+    },
+    "4da7c63f-55fb-4c2f-916e-16dbd0487450": {
+      "id": "4da7c63f-55fb-4c2f-916e-16dbd0487450",
+      "message": {
+        "id": "4da7c63f-55fb-4c2f-916e-16dbd0487450",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743634468.610027,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "You're probably thinking of **Yukon**, Oklahoma. It sounds similar to **Yukon Territory** in Canada, which is home to part of **Yukon-Charley Rivers National Preserve** in Alaska. It also has a bit of a Pacific Northwest feel, as Yukon is associated with rugged wilderness, much like Washington state. \n\nWould that be the one, or do you have any other clues?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "7727e9d9-cdc3-4177-8d99-351ecd79da7d",
+          "request_id": "92a3e8815c07c974-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7727e9d9-cdc3-4177-8d99-351ecd79da7d",
+      "children": [
+        "d5c3281e-afbd-424b-b53a-9cad8939d700"
+      ]
+    },
+    "d5c3281e-afbd-424b-b53a-9cad8939d700": {
+      "id": "d5c3281e-afbd-424b-b53a-9cad8939d700",
+      "message": {
+        "id": "d5c3281e-afbd-424b-b53a-9cad8939d700",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743634560.495503,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That’s the one list the orthodox Christian parishes in that area by estimated population size"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "92a3eac41984d6b3-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4da7c63f-55fb-4c2f-916e-16dbd0487450",
+      "children": [
+        "35a87a4c-9663-4020-87ff-aa43c57dffa0"
+      ]
+    },
+    "35a87a4c-9663-4020-87ff-aa43c57dffa0": {
+      "id": "35a87a4c-9663-4020-87ff-aa43c57dffa0",
+      "message": {
+        "id": "35a87a4c-9663-4020-87ff-aa43c57dffa0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743634561.494302,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"That\\u2019s the one list the orthodox Christian parishes in that area by estimated population size\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_complete": true,
+          "finish_details": {
+            "type": "stop"
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "d5c3281e-afbd-424b-b53a-9cad8939d700",
+          "request_id": "92a3eac41984d6b3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "d5c3281e-afbd-424b-b53a-9cad8939d700",
+      "children": [
+        "aaaf6578-99a3-40a9-a0d9-76f2180ca390"
+      ]
+    },
+    "aaaf6578-99a3-40a9-a0d9-76f2180ca390": {
+      "id": "aaaf6578-99a3-40a9-a0d9-76f2180ca390",
+      "message": {
+        "id": "aaaf6578-99a3-40a9-a0d9-76f2180ca390",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {}
+        },
+        "create_time": 1743634561.9517944,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "command": "search",
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "35a87a4c-9663-4020-87ff-aa43c57dffa0",
+          "request_id": "92a3eac41984d6b3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "35a87a4c-9663-4020-87ff-aa43c57dffa0",
+      "children": [
+        "f92aacaf-600d-41b2-89f6-14bc39521542"
+      ]
+    },
+    "f92aacaf-600d-41b2-89f6-14bc39521542": {
+      "id": "f92aacaf-600d-41b2-89f6-14bc39521542",
+      "message": {
+        "id": "f92aacaf-600d-41b2-89f6-14bc39521542",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1743634561.9523365,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In the Yukon and Oklahoma City area, several Orthodox Christian parishes serve the community. While specific congregation sizes aren't publicly available, here are some of the prominent parishes:\n\n- **St. Elijah Antiochian Orthodox Christian Church**: Founded in 1920, this vibrant parish is located at 15000 N May Ave, Oklahoma City, OK 73134. They offer services on Sundays at 8:45 AM for Orthros and 10:00 AM for Divine Liturgy, as well as Vespers on Wednesdays at 6:00 PM and Saturdays at 5:00 PM. citeturn0search1turn0search11\n\n- **St. George Greek Orthodox Church**: Situated at 2101 NW 145th St, Oklahoma City, OK 73134, this parish holds Orthros at 8:50 AM followed by Divine Liturgy at 10:00 AM every Sunday. citeturn0search5\n\n- **St. Benedict Orthodox Church**: Located at 3900 Jones Blvd, Oklahoma City, OK 73135, this parish is part of the Russian Orthodox Church Outside Russia (ROCOR). They conduct Vespers on Saturdays at 5:00 PM and Divine Liturgy on Sundays at 9:30 AM. citeturn0search7\n\n- **St. George Syriac Orthodox Church**: Based in Bethany, Oklahoma, this parish is under the leadership of the Patriarch of Antioch and the Archbishop of North America. citeturn0search15\n\n- **St. Thomas Orthodox Church**: This Malankara Orthodox Church, located in Oklahoma City, was established in 1981 and serves the Indian Orthodox community. citeturn0search10\n\n- **Holy Ascension Orthodox Church**: Located in Norman, OK, this parish is part of the Antiochian Archdiocese of North America and offers traditional Orthodox Christian worship and fellowship. citeturn0search13\n\nWhile exact congregation sizes are not publicly disclosed, St. Elijah Antiochian Orthodox Christian Church and St. George Greek Orthodox Church are among the larger parishes in the area, given their long histories and active community involvement. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "debug_sonic_thread_id": "thread_67edc0819420800d964a021a78c5f82a",
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "oca.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.oca.org/parishes/state/YT",
+                  "title": "Yukon - Parishes - Orthodox Church in America",
+                  "snippet": "St. Nikolai Bishop of Zhitsa Mission Whitehorse, Yukon Archdiocese of Canada British Columbia Deanery www orthodoxwhitehorse.org",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Orthodox Church in America"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.oca.org/parishes/state/OK",
+                  "title": "Parishes - Oklahoma - Orthodox Church in America",
+                  "snippet": "Parishes in Oklahoma · Holy Apostles Church · SS. Cyril and Methodius Church · St. Basil the Great Mission · List by State/Province · List by Diocese · List by ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Orthodox Church in America"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.oca.org/parishes",
+                  "title": "Parishes - Orthodox Church in America",
+                  "snippet": "The Mission of The Orthodox Church in America (OCA), the local autocephalous Orthodox Christian Church, is to be faithful in fulfilling the commandment of ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Orthodox Church in America"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "stelijahokc.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://stelijahokc.com/",
+                  "title": "Saint Elijah | Antiochian Orthodox Christian Church",
+                  "snippet": "Founded in 1920 in Oklahoma City, Oklahoma, we are a vibrant parish dedicated to being a life-giving community of Orthodox Christian faith, worship, love ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "stelijahokc.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "yellowpages.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.yellowpages.com/yukon-ok/eastern-orthodox-churches",
+                  "title": "Eastern Orthodox Churches in Yukon, OK with Reviews",
+                  "snippet": "Eastern orthodox churches in Yukon, OK · 1.Iglesia Universal · 2.St Benedict Orthodox Church · 3.St George Greek Orthodox · 4.St Elijah ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "YP.com | The Real Yellow Pages"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "yelp.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.yelp.com/search?find_desc=Orthodox+Church&find_loc=Oklahoma+City%2C+OK",
+                  "title": "TOP 10 BEST Orthodox Church in Oklahoma City, OK - Yelp",
+                  "snippet": "1. St Benedict Orthodox Church · 2. St Elijah Antiochian Orthodox Christian Church · 3. St George Greek Orthodox Church · 4. St George Ethiopian Orthodox Tewahedo ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Yelp"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.yelp.com/biz/oklahoma-city-oklahoma-temple-yukon",
+                  "title": "OKLAHOMA CITY OKLAHOMA TEMPLE - Updated March 2025 - Yelp",
+                  "snippet": "More info about Oklahoma City Oklahoma Temple · Map · 12030 N Mustang Rd. Yukon, OK 73099. Directions · (405) 373-2309. Call Now ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Yelp"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "saintgeorgeokc.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.saintgeorgeokc.org/",
+                  "title": "St. George Greek Orthodox Church: Home",
+                  "snippet": "We invite you to join us for our worship services each Sunday - 8:50 am for Orthros followed by the Divine Liturgy at 10:00 am. We also have other services on ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "St. George Greek Orthodox Church"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.saintgeorgeokc.org/our-faith/introduction",
+                  "title": "Introduction | St. George Greek Orthodox Church",
+                  "snippet": "Come & See Orthodox Christianity · Support Our Parish. St. George Greek Orthodox Church. 2101 NW 145th Street, Oklahoma City, OK 73134. Phone: (405) 751-1885 ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "St. George Greek Orthodox Church"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "orthodox.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.orthodox.org/",
+                  "title": "St. Benedict Orthodox Church",
+                  "snippet": "Welcome to the website of St. Benedict Orthodox Church! We are a parish of the ROCOR Diocese of Chicago and Mid-America under the omophorion of His Grace.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "St Benedict Okc"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "facebook.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.facebook.com/St.GeorgeSyriacOrthodoxChurch.Bethany.Oklahoma/",
+                  "title": "St. George Syriac Orthodox Church, Bethany, Oklahoma - Facebook",
+                  "snippet": "St. George Syriac Orthodox Christian Church of Bethany, Oklahoma is under the leadership of the Patriarch of Antioch and the Archbishop of North America.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Log in or sign up to view"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.facebook.com/StElijahOKC/",
+                  "title": "St. Elijah Antiochian Orthodox Christian Church - OKC, OK - Facebook",
+                  "snippet": "Schedule or Services: Sundays: 8:45am Orthros; 10am Divine Liturgy Wed: 6pm Vespers; Sat: 5pm Vespers",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Log in or sign up to view"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "stthomasokc.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.stthomasokc.com/",
+                  "title": "St. Thomas Orthodox Church, Oklahoma",
+                  "snippet": "Official website of the Oklahoma city Malankara Orthodox Church, www.stthomasokc.com.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "stthomasokc.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://stthomasokc.com/concept/aboutus/stthomasokc.aspx",
+                  "title": "ST.THOMAS ORTHODOX CHURCH OF INDIA, OKLAHOMA",
+                  "snippet": "A name for the Church was adopted as “St. Thomas Orthodox Church of Oklahoma.” Initially, the Congregation has 7-8 members and prayer meetings were conducted ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "stthomasokc.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "saintgeorgechurchok.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.saintgeorgechurchok.org/parish-history.html",
+                  "title": "Parish History - St. George Syriac Orthodox Church",
+                  "snippet": "8th day of April 1983 “St. George Syrian Orthodox Christian Church” was registered as a Religious corporation in Oklahoma.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "saintgeorgechurchok.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.saintgeorgechurchok.org/",
+                  "title": "St. George Syriac Orthodox Church",
+                  "snippet": "St. George Syriac Orthodox Christian Church of Bethany, Oklahoma is under the leadership of the Patriarch of Antioch and the Archbishop of North America.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "saintgeorgechurchok.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "normanorthodox.church",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.normanorthodox.church/",
+                  "title": "Holy Ascension Orthodox Church | orthodox church near me | Holy ...",
+                  "snippet": "Discover Holy Ascension Orthodox Church in Norman, Oklahoma, a vibrant and welcoming community offering traditional Orthodox Christian worship, fellowship, ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Holy Ascension"
+                }
+              ]
+            }
+          ],
+          "safe_urls": [
+            "https://www.orthodox.org/?utm_source=chatgpt.com",
+            "https://www.saintgeorgeokc.org/?utm_source=chatgpt.com",
+            "https://www.normanorthodox.church/?utm_source=chatgpt.com",
+            "https://stelijahokc.com/?utm_source=chatgpt.com",
+            "https://www.facebook.com/StElijahOKC/?utm_source=chatgpt.com",
+            "https://www.saintgeorgechurchok.org/?utm_source=chatgpt.com",
+            "https://www.stthomasokc.com/?utm_source=chatgpt.com"
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "aaaf6578-99a3-40a9-a0d9-76f2180ca390",
+          "message_locale": "en-US",
+          "image_results": [],
+          "content_references": [
+            {
+              "matched_text": "",
+              "start_idx": 0,
+              "end_idx": 1,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "In the Yukon and Oklahoma City area, several Orthodox Christian parishes serve the community.",
+              "start_idx": 1,
+              "end_idx": 94,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "In the Yukon and Oklahoma City area, several Orthodox Christian parishes serve the community.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "0-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 94,
+              "end_idx": 95,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 197,
+              "end_idx": 198,
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "",
+              "start_idx": 255,
+              "end_idx": 256,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "Founded in 1920, this vibrant parish is located at 15000 N May Ave, Oklahoma City, OK 73134. They offer services on Sundays at 8:45 AM for Orthros and 10:00 AM for Divine Liturgy, as well as Vespers on Wednesdays at 6:00 PM and Saturdays at 5:00 PM.",
+              "start_idx": 256,
+              "end_idx": 505,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Founded in 1920, this vibrant parish is located at 15000 N May Ave, Oklahoma City, OK 73134. They offer services on Sundays at 8:45 AM for Orthros and 10:00 AM for Divine Liturgy, as well as Vespers on Wednesdays at 6:00 PM and Saturdays at 5:00 PM.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "198-1",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 505,
+              "end_idx": 506,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search1turn0search11",
+              "start_idx": 507,
+              "end_idx": 540,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([stelijahokc.com](https://stelijahokc.com/?utm_source=chatgpt.com), [facebook.com](https://www.facebook.com/StElijahOKC/?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "Saint Elijah | Antiochian Orthodox Christian Church",
+                  "url": "https://stelijahokc.com/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Founded in 1920 in Oklahoma City, Oklahoma, we are a vibrant parish dedicated to being a life-giving community of Orthodox Christian faith, worship, love ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                },
+                {
+                  "title": "St. Elijah Antiochian Orthodox Christian Church - OKC, OK - Facebook",
+                  "url": "https://www.facebook.com/StElijahOKC/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Schedule or Services: Sundays: 8:45am Orthros; 10am Divine Liturgy Wed: 6pm Vespers; Sat: 5pm Vespers",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 540,
+              "end_idx": 541,
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "St. Elijah Antiochian Orthodox Christian Church - OKC, OK - Facebook",
+                  "url": "https://www.facebook.com/StElijahOKC/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Schedule or Services: Sundays: 8:45am Orthros; 10am Divine Liturgy Wed: 6pm Vespers; Sat: 5pm Vespers",
+                  "attribution_segments": [
+                    "198-1"
+                  ],
+                  "supporting_websites": [
+                    {
+                      "title": "St. George Greek Orthodox Church: Home",
+                      "url": "https://www.saintgeorgeokc.org/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "We invite you to join us for our worship services each Sunday - 8:50 am for Orthros followed by the Divine Liturgy at 10:00 am. We also have other services on ...",
+                      "attribution": "St. George Greek Orthodox Church"
+                    },
+                    {
+                      "title": "Eastern Orthodox Churches in Yukon, OK with Reviews",
+                      "url": "https://www.yellowpages.com/yukon-ok/eastern-orthodox-churches?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Eastern orthodox churches in Yukon, OK · 1.Iglesia Universal · 2.St Benedict Orthodox Church · 3.St George Greek Orthodox · 4.St Elijah ...",
+                      "attribution": "YP.com | The Real Yellow Pages"
+                    },
+                    {
+                      "title": "St. Benedict Orthodox Church",
+                      "url": "https://www.orthodox.org/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Welcome to the website of St. Benedict Orthodox Church! We are a parish of the ROCOR Diocese of Chicago and Mid-America under the omophorion of His Grace.",
+                      "attribution": "St Benedict Okc"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 5
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Log in or sign up to view"
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "",
+              "start_idx": 583,
+              "end_idx": 584,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "Situated at 2101 NW 145th St, Oklahoma City, OK 73134, this parish holds Orthros at 8:50 AM followed by Divine Liturgy at 10:00 AM every Sunday.",
+              "start_idx": 584,
+              "end_idx": 728,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Situated at 2101 NW 145th St, Oklahoma City, OK 73134, this parish holds Orthros at 8:50 AM followed by Divine Liturgy at 10:00 AM every Sunday.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "541-1",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 728,
+              "end_idx": 729,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search5",
+              "start_idx": 730,
+              "end_idx": 749,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([saintgeorgeokc.org](https://www.saintgeorgeokc.org/?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "St. George Greek Orthodox Church: Home",
+                  "url": "https://www.saintgeorgeokc.org/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "We invite you to join us for our worship services each Sunday - 8:50 am for Orthros followed by the Divine Liturgy at 10:00 am. We also have other services on ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 5
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 749,
+              "end_idx": 750,
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "St. George Greek Orthodox Church: Home",
+                  "url": "https://www.saintgeorgeokc.org/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "We invite you to join us for our worship services each Sunday - 8:50 am for Orthros followed by the Divine Liturgy at 10:00 am. We also have other services on ...",
+                  "attribution_segments": [
+                    "541-1"
+                  ],
+                  "supporting_websites": [
+                    {
+                      "title": "St. Elijah Antiochian Orthodox Christian Church - OKC, OK - Facebook",
+                      "url": "https://www.facebook.com/StElijahOKC/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Schedule or Services: Sundays: 8:45am Orthros; 10am Divine Liturgy Wed: 6pm Vespers; Sat: 5pm Vespers",
+                      "attribution": "Log in or sign up to view"
+                    },
+                    {
+                      "title": "Eastern Orthodox Churches in Yukon, OK with Reviews",
+                      "url": "https://www.yellowpages.com/yukon-ok/eastern-orthodox-churches?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Eastern orthodox churches in Yukon, OK · 1.Iglesia Universal · 2.St Benedict Orthodox Church · 3.St George Greek Orthodox · 4.St Elijah ...",
+                      "attribution": "YP.com | The Real Yellow Pages"
+                    },
+                    {
+                      "title": "Introduction | St. George Greek Orthodox Church",
+                      "url": "https://www.saintgeorgeokc.org/our-faith/introduction?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Come & See Orthodox Christianity · Support Our Parish. St. George Greek Orthodox Church. 2101 NW 145th Street, Oklahoma City, OK 73134. Phone: (405) 751-1885 ...",
+                      "attribution": "St. George Greek Orthodox Church"
+                    },
+                    {
+                      "title": "St. Benedict Orthodox Church",
+                      "url": "https://www.orthodox.org/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Welcome to the website of St. Benedict Orthodox Church! We are a parish of the ROCOR Diocese of Chicago and Mid-America under the omophorion of His Grace.",
+                      "attribution": "St Benedict Okc"
+                    },
+                    {
+                      "title": "Saint Elijah | Antiochian Orthodox Christian Church",
+                      "url": "https://stelijahokc.com/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Founded in 1920 in Oklahoma City, Oklahoma, we are a vibrant parish dedicated to being a life-giving community of Orthodox Christian faith, worship, love ...",
+                      "attribution": "stelijahokc.com"
+                    },
+                    {
+                      "title": "ST.THOMAS ORTHODOX CHURCH OF INDIA, OKLAHOMA",
+                      "url": "https://stthomasokc.com/concept/aboutus/stthomasokc.aspx?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "A name for the Church was adopted as “St. Thomas Orthodox Church of Oklahoma.” Initially, the Congregation has 7-8 members and prayer meetings were conducted ...",
+                      "attribution": "stthomasokc.com"
+                    },
+                    {
+                      "title": "St. George Syriac Orthodox Church",
+                      "url": "https://www.saintgeorgechurchok.org/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "St. George Syriac Orthodox Christian Church of Bethany, Oklahoma is under the leadership of the Patriarch of Antioch and the Archbishop of North America.",
+                      "attribution": "saintgeorgechurchok.org"
+                    },
+                    {
+                      "title": "St. Thomas Orthodox Church, Oklahoma",
+                      "url": "https://www.stthomasokc.com/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Official website of the Oklahoma city Malankara Orthodox Church, www.stthomasokc.com.",
+                      "attribution": "stthomasokc.com"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 5
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 8
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 14
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 15
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 10
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "St. George Greek Orthodox Church"
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "",
+              "start_idx": 788,
+              "end_idx": 789,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "Located at 3900 Jones Blvd, Oklahoma City, OK 73135, this parish is part of the Russian Orthodox Church Outside Russia (ROCOR). They conduct Vespers on Saturdays at 5:00 PM and Divine Liturgy on Sundays at 9:30 AM.",
+              "start_idx": 789,
+              "end_idx": 1003,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Located at 3900 Jones Blvd, Oklahoma City, OK 73135, this parish is part of the Russian Orthodox Church Outside Russia (ROCOR). They conduct Vespers on Saturdays at 5:00 PM and Divine Liturgy on Sundays at 9:30 AM.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "750-1",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1003,
+              "end_idx": 1004,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search7",
+              "start_idx": 1005,
+              "end_idx": 1024,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([orthodox.org](https://www.orthodox.org/?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "St. Benedict Orthodox Church",
+                  "url": "https://www.orthodox.org/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Welcome to the website of St. Benedict Orthodox Church! We are a parish of the ROCOR Diocese of Chicago and Mid-America under the omophorion of His Grace.",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1024,
+              "end_idx": 1025,
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Eastern Orthodox Churches in Yukon, OK with Reviews",
+                  "url": "https://www.yellowpages.com/yukon-ok/eastern-orthodox-churches?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Eastern orthodox churches in Yukon, OK · 1.Iglesia Universal · 2.St Benedict Orthodox Church · 3.St George Greek Orthodox · 4.St Elijah ...",
+                  "attribution_segments": [
+                    "750-1"
+                  ],
+                  "supporting_websites": [
+                    {
+                      "title": "St. Benedict Orthodox Church",
+                      "url": "https://www.orthodox.org/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Welcome to the website of St. Benedict Orthodox Church! We are a parish of the ROCOR Diocese of Chicago and Mid-America under the omophorion of His Grace.",
+                      "attribution": "St Benedict Okc"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "YP.com | The Real Yellow Pages"
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1068,
+              "end_idx": 1069,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "Based in Bethany, Oklahoma, this parish is under the leadership of the Patriarch of Antioch and the Archbishop of North America.",
+              "start_idx": 1069,
+              "end_idx": 1197,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Based in Bethany, Oklahoma, this parish is under the leadership of the Patriarch of Antioch and the Archbishop of North America.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "1025-1",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1197,
+              "end_idx": 1198,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search15",
+              "start_idx": 1199,
+              "end_idx": 1219,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([saintgeorgechurchok.org](https://www.saintgeorgechurchok.org/?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "St. George Syriac Orthodox Church",
+                  "url": "https://www.saintgeorgechurchok.org/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "St. George Syriac Orthodox Christian Church of Bethany, Oklahoma is under the leadership of the Patriarch of Antioch and the Archbishop of North America.",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 15
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1219,
+              "end_idx": 1220,
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "St. George Syriac Orthodox Church, Bethany, Oklahoma - Facebook",
+                  "url": "https://www.facebook.com/St.GeorgeSyriacOrthodoxChurch.Bethany.Oklahoma/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "St. George Syriac Orthodox Christian Church of Bethany, Oklahoma is under the leadership of the Patriarch of Antioch and the Archbishop of North America.",
+                  "attribution_segments": [
+                    "1025-1"
+                  ],
+                  "supporting_websites": [
+                    {
+                      "title": "St. George Syriac Orthodox Church",
+                      "url": "https://www.saintgeorgechurchok.org/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "St. George Syriac Orthodox Christian Church of Bethany, Oklahoma is under the leadership of the Patriarch of Antioch and the Archbishop of North America.",
+                      "attribution": "saintgeorgechurchok.org"
+                    },
+                    {
+                      "title": "Holy Ascension Orthodox Church | orthodox church near me | Holy ...",
+                      "url": "https://www.normanorthodox.church/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Discover Holy Ascension Orthodox Church in Norman, Oklahoma, a vibrant and welcoming community offering traditional Orthodox Christian worship, fellowship, ...",
+                      "attribution": "Holy Ascension"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 9
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 15
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 13
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Log in or sign up to view"
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1256,
+              "end_idx": 1257,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "This Malankara Orthodox Church, located in Oklahoma City, was established in 1981 and serves the Indian Orthodox community.",
+              "start_idx": 1257,
+              "end_idx": 1380,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "This Malankara Orthodox Church, located in Oklahoma City, was established in 1981 and serves the Indian Orthodox community.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "1220-1",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1380,
+              "end_idx": 1381,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search10",
+              "start_idx": 1382,
+              "end_idx": 1402,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([stthomasokc.com](https://www.stthomasokc.com/?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "St. Thomas Orthodox Church, Oklahoma",
+                  "url": "https://www.stthomasokc.com/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Official website of the Oklahoma city Malankara Orthodox Church, www.stthomasokc.com.",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 10
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1402,
+              "end_idx": 1403,
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "ST.THOMAS ORTHODOX CHURCH OF INDIA, OKLAHOMA",
+                  "url": "https://stthomasokc.com/concept/aboutus/stthomasokc.aspx?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "A name for the Church was adopted as “St. Thomas Orthodox Church of Oklahoma.” Initially, the Congregation has 7-8 members and prayer meetings were conducted ...",
+                  "attribution_segments": [
+                    "1220-1"
+                  ],
+                  "supporting_websites": [
+                    {
+                      "title": "St. Thomas Orthodox Church, Oklahoma",
+                      "url": "https://www.stthomasokc.com/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Official website of the Oklahoma city Malankara Orthodox Church, www.stthomasokc.com.",
+                      "attribution": "stthomasokc.com"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 14
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 10
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "stthomasokc.com"
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1443,
+              "end_idx": 1444,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "Located in Norman, OK, this parish is part of the Antiochian Archdiocese of North America and offers traditional Orthodox Christian worship and fellowship.",
+              "start_idx": 1444,
+              "end_idx": 1599,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Located in Norman, OK, this parish is part of the Antiochian Archdiocese of North America and offers traditional Orthodox Christian worship and fellowship.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "1403-1",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1599,
+              "end_idx": 1600,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search13",
+              "start_idx": 1601,
+              "end_idx": 1621,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([normanorthodox.church](https://www.normanorthodox.church/?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "Holy Ascension Orthodox Church | orthodox church near me | Holy ...",
+                  "url": "https://www.normanorthodox.church/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Discover Holy Ascension Orthodox Church in Norman, Oklahoma, a vibrant and welcoming community offering traditional Orthodox Christian worship, fellowship, ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 13
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1621,
+              "end_idx": 1622,
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Holy Ascension Orthodox Church | orthodox church near me | Holy ...",
+                  "url": "https://www.normanorthodox.church/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Discover Holy Ascension Orthodox Church in Norman, Oklahoma, a vibrant and welcoming community offering traditional Orthodox Christian worship, fellowship, ...",
+                  "attribution_segments": [
+                    "1403-1"
+                  ],
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 13
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Holy Ascension"
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1624,
+              "end_idx": 1625,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "While exact congregation sizes are not publicly disclosed, St. Elijah Antiochian Orthodox Christian Church and St. George Greek Orthodox Church are among the larger parishes in the area, given their long histories and active community involvement.",
+              "start_idx": 1625,
+              "end_idx": 1872,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "While exact congregation sizes are not publicly disclosed, St. Elijah Antiochian Orthodox Christian Church and St. George Greek Orthodox Church are among the larger parishes in the area, given their long histories and active community involvement.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "1622-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1872,
+              "end_idx": 1873,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1873,
+              "end_idx": 1874,
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "TOP 10 BEST Orthodox Church in Oklahoma City, OK - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Orthodox+Church&find_loc=Oklahoma+City%2C+OK&utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "1. St Benedict Orthodox Church · 2. St Elijah Antiochian Orthodox Christian Church · 3. St George Greek Orthodox Church · 4. St George Ethiopian Orthodox Tewahedo ...",
+                  "attribution_segments": [
+                    "1622-0"
+                  ],
+                  "supporting_websites": [
+                    {
+                      "title": "St. Elijah Antiochian Orthodox Christian Church - OKC, OK - Facebook",
+                      "url": "https://www.facebook.com/StElijahOKC/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Schedule or Services: Sundays: 8:45am Orthros; 10am Divine Liturgy Wed: 6pm Vespers; Sat: 5pm Vespers",
+                      "attribution": "Log in or sign up to view"
+                    },
+                    {
+                      "title": "Eastern Orthodox Churches in Yukon, OK with Reviews",
+                      "url": "https://www.yellowpages.com/yukon-ok/eastern-orthodox-churches?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Eastern orthodox churches in Yukon, OK · 1.Iglesia Universal · 2.St Benedict Orthodox Church · 3.St George Greek Orthodox · 4.St Elijah ...",
+                      "attribution": "YP.com | The Real Yellow Pages"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 4
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Yelp"
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 1874,
+              "end_idx": 1874,
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Saint Elijah | Antiochian Orthodox Christian Church",
+                  "url": "https://stelijahokc.com/?utm_source=chatgpt.com",
+                  "attribution": "stelijahokc.com"
+                },
+                {
+                  "title": "St. Elijah Antiochian Orthodox Christian Church - OKC, OK - Facebook",
+                  "url": "https://www.facebook.com/StElijahOKC/?utm_source=chatgpt.com",
+                  "attribution": "Log in or sign up to view"
+                },
+                {
+                  "title": "St. George Greek Orthodox Church: Home",
+                  "url": "https://www.saintgeorgeokc.org/?utm_source=chatgpt.com",
+                  "attribution": "St. George Greek Orthodox Church"
+                },
+                {
+                  "title": "St. Benedict Orthodox Church",
+                  "url": "https://www.orthodox.org/?utm_source=chatgpt.com",
+                  "attribution": "St Benedict Okc"
+                },
+                {
+                  "title": "Eastern Orthodox Churches in Yukon, OK with Reviews",
+                  "url": "https://www.yellowpages.com/yukon-ok/eastern-orthodox-churches?utm_source=chatgpt.com",
+                  "attribution": "YP.com | The Real Yellow Pages"
+                },
+                {
+                  "title": "St. George Syriac Orthodox Church",
+                  "url": "https://www.saintgeorgechurchok.org/?utm_source=chatgpt.com",
+                  "attribution": "saintgeorgechurchok.org"
+                },
+                {
+                  "title": "St. Thomas Orthodox Church, Oklahoma",
+                  "url": "https://www.stthomasokc.com/?utm_source=chatgpt.com",
+                  "attribution": "stthomasokc.com"
+                },
+                {
+                  "title": "Holy Ascension Orthodox Church | orthodox church near me | Holy ...",
+                  "url": "https://www.normanorthodox.church/?utm_source=chatgpt.com",
+                  "attribution": "Holy Ascension"
+                },
+                {
+                  "title": "TOP 10 BEST Orthodox Church in Oklahoma City, OK - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Orthodox+Church&find_loc=Oklahoma+City%2C+OK&utm_source=chatgpt.com",
+                  "attribution": "Yelp"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "citations": [
+            {
+              "start_ix": 0,
+              "end_ix": 1,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 94,
+              "end_ix": 95,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 197,
+              "end_ix": 198,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 255,
+              "end_ix": 256,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 505,
+              "end_ix": 506,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 507,
+              "end_ix": 540,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 540,
+              "end_ix": 541,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 583,
+              "end_ix": 584,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 728,
+              "end_ix": 729,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 730,
+              "end_ix": 749,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 749,
+              "end_ix": 750,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 788,
+              "end_ix": 789,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1003,
+              "end_ix": 1004,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1005,
+              "end_ix": 1024,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1024,
+              "end_ix": 1025,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1068,
+              "end_ix": 1069,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1197,
+              "end_ix": 1198,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1199,
+              "end_ix": 1219,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1219,
+              "end_ix": 1220,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1256,
+              "end_ix": 1257,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1380,
+              "end_ix": 1381,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1382,
+              "end_ix": 1402,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1402,
+              "end_ix": 1403,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1443,
+              "end_ix": 1444,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1599,
+              "end_ix": 1600,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1601,
+              "end_ix": 1621,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1621,
+              "end_ix": 1622,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1624,
+              "end_ix": 1625,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1872,
+              "end_ix": 1873,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1873,
+              "end_ix": 1874,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1874,
+              "end_ix": 1874,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "request_id": "92a3eac41984d6b3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaaf6578-99a3-40a9-a0d9-76f2180ca390",
+      "children": [
+        "67701895-09dd-433a-9458-37a1ab384a50"
+      ]
+    },
+    "67701895-09dd-433a-9458-37a1ab384a50": {
+      "id": "67701895-09dd-433a-9458-37a1ab384a50",
+      "message": {
+        "id": "67701895-09dd-433a-9458-37a1ab384a50",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743634636.460067,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What’s the closest parish to that Yukon suburb?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "92a3ec9edea83ae8-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f92aacaf-600d-41b2-89f6-14bc39521542",
+      "children": [
+        "3f2e8008-208e-4894-8837-ea8f5cb5a2a3"
+      ]
+    },
+    "3f2e8008-208e-4894-8837-ea8f5cb5a2a3": {
+      "id": "3f2e8008-208e-4894-8837-ea8f5cb5a2a3",
+      "message": {
+        "id": "3f2e8008-208e-4894-8837-ea8f5cb5a2a3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743634637.041179,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"What\\u2019s the closest parish to that Yukon suburb?\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_complete": true,
+          "finish_details": {
+            "type": "stop"
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "67701895-09dd-433a-9458-37a1ab384a50",
+          "request_id": "92a3ec9edea83ae8-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "67701895-09dd-433a-9458-37a1ab384a50",
+      "children": [
+        "2b2200f0-082d-4774-bdce-c6fe85d219e9"
+      ]
+    },
+    "2b2200f0-082d-4774-bdce-c6fe85d219e9": {
+      "id": "2b2200f0-082d-4774-bdce-c6fe85d219e9",
+      "message": {
+        "id": "2b2200f0-082d-4774-bdce-c6fe85d219e9",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {}
+        },
+        "create_time": 1743634637.5971777,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "command": "search",
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "3f2e8008-208e-4894-8837-ea8f5cb5a2a3",
+          "request_id": "92a3ec9edea83ae8-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "3f2e8008-208e-4894-8837-ea8f5cb5a2a3",
+      "children": [
+        "10893ce0-ba17-4d7c-9fd7-8976949fe4c7"
+      ]
+    },
+    "10893ce0-ba17-4d7c-9fd7-8976949fe4c7": {
+      "id": "10893ce0-ba17-4d7c-9fd7-8976949fe4c7",
+      "message": {
+        "id": "10893ce0-ba17-4d7c-9fd7-8976949fe4c7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1743634637.5977495,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The closest Orthodox Christian parish to Yukon, Oklahoma, is **St. Elijah Antiochian Orthodox Christian Church**, located at 15000 N. May Avenue, Oklahoma City, OK 73134. citeturn0search0 Yukon is approximately 15 miles west of Oklahoma City, making St. Elijah a convenient option for residents seeking Orthodox Christian services.\n\nAnother nearby parish is **St. George Greek Orthodox Church**, situated at 2101 NW 145th Street, Oklahoma City, OK 73134. citeturn0search2\n\nBoth churches offer regular services and welcome visitors from the Yukon area. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "debug_sonic_thread_id": "thread_67edc0cd1bb0800d9dcaf272a5d5b446",
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "stelijahokc.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://stelijahokc.com/",
+                  "title": "Saint Elijah | Antiochian Orthodox Christian Church",
+                  "snippet": "Founded in 1920 in Oklahoma City, Oklahoma, we are a vibrant parish dedicated to being a life-giving community of Orthodox Christian faith, worship, love, and ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "stelijahokc.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "oca.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.oca.org/parishes/state/OK",
+                  "title": "Parishes - Oklahoma - Orthodox Church in America",
+                  "snippet": "Holy Apostles Church. Bixby, Oklahoma · www holyapostlesorthodox.org ; SS. Cyril and Methodius Church. Hartshorne, Oklahoma ; St. Basil the Great Mission.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Orthodox Church in America"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.oca.org/parishes/oca-so-wtfsbg",
+                  "title": "Parishes - St. Basil the Great Mission - Orthodox Church in America",
+                  "snippet": "323 N State St Weatherford, Oklahoma 73096 Website: saintbasil.org Church: 580-613-0173 Parish Contacts Rev. Nicklas Aiello Priest-in-Charge 210 N Main St / PO ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Orthodox Church in America"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "saintgeorgeokc.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.saintgeorgeokc.org/",
+                  "title": "St. George Greek Orthodox Church: Home",
+                  "snippet": "We invite you to join us for our worship services each Sunday - 8:50 am for Orthros followed by the Divine Liturgy at 10:00 am. We also have other services on ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "St. George Greek Orthodox Church"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "yelp.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.yelp.com/search?find_desc=Orthodox+Church&find_loc=Oklahoma+City%2C+OK",
+                  "title": "TOP 10 BEST Orthodox Church in Oklahoma City, OK - Yelp",
+                  "snippet": "Top 10 Best Orthodox Church Near Oklahoma City, Oklahoma · 1. St Benedict Orthodox Church · 2. St Elijah Antiochian Orthodox Christian Church · 3. St George Greek ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Yelp"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.yelp.com/biz/trinity-baptist-church-yukon",
+                  "title": "TRINITY BAPTIST CHURCH - Updated March 2025 - 23 Photos - Yelp",
+                  "snippet": "More info about Trinity Baptist Church ; 620 N Cemetery Rd. Yukon, OK 73099 ; (405) 354-4839 ; Visit Website. http://trinityyukon.com ; More Info. Hours ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Yelp"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "yellowpages.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.yellowpages.com/yukon-ok/eastern-orthodox-churches",
+                  "title": "Eastern Orthodox Churches in Yukon, OK with Reviews",
+                  "snippet": "Eastern orthodox churches in Yukon, OK · 1.Iglesia Universal · 2.St Benedict Orthodox Church · 3.St George Greek Orthodox · 4.St Elijah Orthodox ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "YP.com | The Real Yellow Pages"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "facebook.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.facebook.com/St.GeorgeSyriacOrthodoxChurch.Bethany.Oklahoma/?locale=fr_FR",
+                  "title": "St. George Syriac Orthodox Church, Bethany, Oklahoma - Facebook",
+                  "snippet": "St. George Syriac Orthodox Christian Church of Bethany, Oklahoma is under the leadership of the Patriarch of Antioch and the Archbishop of North America.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Log in or sign up to view"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "orthodox.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.orthodox.org/",
+                  "title": "St. Benedict Orthodox Church",
+                  "snippet": "Welcome to the website of St. Benedict Orthodox Church! We are a parish of the ROCOR Diocese of Chicago and Mid-America under the omophorion of His Grace.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "St Benedict Okc"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "normanorthodox.church",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.normanorthodox.church/",
+                  "title": "Holy Ascension Orthodox Church | orthodox church near me | Holy ...",
+                  "snippet": "Discover Holy Ascension Orthodox Church in Norman, Oklahoma, a vibrant and welcoming community offering traditional Orthodox Christian worship, fellowship, ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Holy Ascension"
+                }
+              ]
+            }
+          ],
+          "safe_urls": [
+            "https://www.saintgeorgeokc.org/?utm_source=chatgpt.com",
+            "https://stelijahokc.com/?utm_source=chatgpt.com"
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "2b2200f0-082d-4774-bdce-c6fe85d219e9",
+          "message_locale": "en-US",
+          "image_results": [],
+          "content_references": [
+            {
+              "matched_text": "",
+              "start_idx": 0,
+              "end_idx": 1,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "The closest Orthodox Christian parish to Yukon, Oklahoma, is **St. Elijah Antiochian Orthodox Christian Church**, located at 15000 N. May Avenue, Oklahoma City, OK 73134.",
+              "start_idx": 1,
+              "end_idx": 171,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "The closest Orthodox Christian parish to Yukon, Oklahoma, is **St. Elijah Antiochian Orthodox Christian Church**, located at 15000 N. May Avenue, Oklahoma City, OK 73134.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "0-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 171,
+              "end_idx": 172,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 173,
+              "end_idx": 192,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([stelijahokc.com](https://stelijahokc.com/?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "Saint Elijah | Antiochian Orthodox Christian Church",
+                  "url": "https://stelijahokc.com/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Founded in 1920 in Oklahoma City, Oklahoma, we are a vibrant parish dedicated to being a life-giving community of Orthodox Christian faith, worship, love, and ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 193,
+              "end_idx": 194,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "Yukon is approximately 15 miles west of Oklahoma City, making St. Elijah a convenient option for residents seeking Orthodox Christian services.",
+              "start_idx": 194,
+              "end_idx": 337,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Yukon is approximately 15 miles west of Oklahoma City, making St. Elijah a convenient option for residents seeking Orthodox Christian services.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "0-1",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 337,
+              "end_idx": 338,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 338,
+              "end_idx": 339,
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Saint Elijah | Antiochian Orthodox Christian Church",
+                  "url": "https://stelijahokc.com/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Founded in 1920 in Oklahoma City, Oklahoma, we are a vibrant parish dedicated to being a life-giving community of Orthodox Christian faith, worship, love, and ...",
+                  "attribution_segments": [
+                    "0-0"
+                  ],
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "stelijahokc.com"
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "",
+              "start_idx": 341,
+              "end_idx": 342,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "Another nearby parish is **St. George Greek Orthodox Church**, situated at 2101 NW 145th Street, Oklahoma City, OK 73134.",
+              "start_idx": 342,
+              "end_idx": 463,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Another nearby parish is **St. George Greek Orthodox Church**, situated at 2101 NW 145th Street, Oklahoma City, OK 73134.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "339-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 463,
+              "end_idx": 464,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search2",
+              "start_idx": 465,
+              "end_idx": 484,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([saintgeorgeokc.org](https://www.saintgeorgeokc.org/?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "St. George Greek Orthodox Church: Home",
+                  "url": "https://www.saintgeorgeokc.org/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "We invite you to join us for our worship services each Sunday - 8:50 am for Orthros followed by the Divine Liturgy at 10:00 am. We also have other services on ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 484,
+              "end_idx": 485,
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "St. George Greek Orthodox Church: Home",
+                  "url": "https://www.saintgeorgeokc.org/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "We invite you to join us for our worship services each Sunday - 8:50 am for Orthros followed by the Divine Liturgy at 10:00 am. We also have other services on ...",
+                  "attribution_segments": [
+                    "339-0"
+                  ],
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "St. George Greek Orthodox Church"
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "",
+              "start_idx": 487,
+              "end_idx": 488,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "Both churches offer regular services and welcome visitors from the Yukon area.",
+              "start_idx": 488,
+              "end_idx": 566,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Both churches offer regular services and welcome visitors from the Yukon area.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "485-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "",
+              "start_idx": 566,
+              "end_idx": 567,
+              "refs": [
+                "hidden"
+              ],
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 567,
+              "end_idx": 568,
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 568,
+              "end_idx": 568,
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Saint Elijah | Antiochian Orthodox Christian Church",
+                  "url": "https://stelijahokc.com/?utm_source=chatgpt.com",
+                  "attribution": "stelijahokc.com"
+                },
+                {
+                  "title": "St. George Greek Orthodox Church: Home",
+                  "url": "https://www.saintgeorgeokc.org/?utm_source=chatgpt.com",
+                  "attribution": "St. George Greek Orthodox Church"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "citations": [
+            {
+              "start_ix": 0,
+              "end_ix": 1,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 171,
+              "end_ix": 172,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 173,
+              "end_ix": 192,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 193,
+              "end_ix": 194,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 337,
+              "end_ix": 338,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 338,
+              "end_ix": 339,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 341,
+              "end_ix": 342,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 463,
+              "end_ix": 464,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 465,
+              "end_ix": 484,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 484,
+              "end_ix": 485,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 487,
+              "end_ix": 488,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 566,
+              "end_ix": 567,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 567,
+              "end_ix": 568,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 568,
+              "end_ix": 568,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "request_id": "92a3ec9edea83ae8-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2b2200f0-082d-4774-bdce-c6fe85d219e9",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "10893ce0-ba17-4d7c-9fd7-8976949fe4c7",
+  "plugin_ids": null,
+  "conversation_id": "67edc024-2558-800d-a8f2-a879b939cde3",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.orthodox.org/?utm_source=chatgpt.com",
+    "https://www.saintgeorgechurchok.org/?utm_source=chatgpt.com",
+    "https://www.normanorthodox.church/?utm_source=chatgpt.com",
+    "https://stelijahokc.com/?utm_source=chatgpt.com",
+    "https://www.facebook.com/StElijahOKC/?utm_source=chatgpt.com",
+    "https://www.stthomasokc.com/?utm_source=chatgpt.com",
+    "https://www.saintgeorgeokc.org/?utm_source=chatgpt.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "id": "67edc024-2558-800d-a8f2-a879b939cde3"
+}

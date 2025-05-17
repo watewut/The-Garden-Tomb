@@ -1,0 +1,494 @@
+{
+  "title": "ND custody modification process",
+  "create_time": 1743703434.5667,
+  "update_time": 1745767301.006027,
+  "mapping": {
+    "bb500adb-8b81-43e4-9834-d77b64aa6542": {
+      "id": "bb500adb-8b81-43e4-9834-d77b64aa6542",
+      "message": null,
+      "parent": null,
+      "children": [
+        "c3688d03-b41a-4973-ab54-7f12427d5de2"
+      ]
+    },
+    "c3688d03-b41a-4973-ab54-7f12427d5de2": {
+      "id": "c3688d03-b41a-4973-ab54-7f12427d5de2",
+      "message": {
+        "id": "c3688d03-b41a-4973-ab54-7f12427d5de2",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bb500adb-8b81-43e4-9834-d77b64aa6542",
+      "children": [
+        "817782d8-b256-4f16-b951-d27019f07b62"
+      ]
+    },
+    "817782d8-b256-4f16-b951-d27019f07b62": {
+      "id": "817782d8-b256-4f16-b951-d27019f07b62",
+      "message": {
+        "id": "817782d8-b256-4f16-b951-d27019f07b62",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743703434.174211,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Is it possible to sue for split custody after a divorce in ND is finalized?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "92aa7c4089cb7b20-DEN",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c3688d03-b41a-4973-ab54-7f12427d5de2",
+      "children": [
+        "cf50f767-9268-48fe-b893-f52da89a3488"
+      ]
+    },
+    "cf50f767-9268-48fe-b893-f52da89a3488": {
+      "id": "cf50f767-9268-48fe-b893-f52da89a3488",
+      "message": {
+        "id": "cf50f767-9268-48fe-b893-f52da89a3488",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743703437.360533,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "817782d8-b256-4f16-b951-d27019f07b62",
+          "request_id": "92aa7c4089cb7b20-DEN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "817782d8-b256-4f16-b951-d27019f07b62",
+      "children": [
+        "7f17f9c7-dff1-4d03-a3c5-a99cc946ba35"
+      ]
+    },
+    "7f17f9c7-dff1-4d03-a3c5-a99cc946ba35": {
+      "id": "7f17f9c7-dff1-4d03-a3c5-a99cc946ba35",
+      "message": {
+        "id": "7f17f9c7-dff1-4d03-a3c5-a99cc946ba35",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743703434.629489,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In North Dakota, you can seek to modify a custody arrangement even after a divorce is finalized, but you must show a significant change in circumstances that affects the child’s best interests. \n\nNorth Dakota law generally requires a waiting period of two years before modifying primary residential responsibility unless there’s evidence of harm to the child or other exceptional circumstances. If you’re seeking split custody (where each parent has primary custody of different children) or a change to joint custody, you’ll need to demonstrate that the modification is in the child’s best interests. \n\nIt’s best to consult with a family law attorney in North Dakota to assess whether your situation meets the legal criteria for a modification. Would you like help finding legal resources in your area?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "cf50f767-9268-48fe-b893-f52da89a3488",
+          "request_id": "92aa7c4089cb7b20-DEN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cf50f767-9268-48fe-b893-f52da89a3488",
+      "children": [
+        "6462258a-3e9e-491e-bf94-c0596d7ae3ba"
+      ]
+    },
+    "6462258a-3e9e-491e-bf94-c0596d7ae3ba": {
+      "id": "6462258a-3e9e-491e-bf94-c0596d7ae3ba",
+      "message": {
+        "id": "6462258a-3e9e-491e-bf94-c0596d7ae3ba",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743703526.8119059,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Would my ex wife moving the children from ND to OK and my following qualify to have the custody reconsidered?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "92aa7e873c66e669-DEN",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7f17f9c7-dff1-4d03-a3c5-a99cc946ba35",
+      "children": [
+        "cfc5fbff-453b-48e2-96d9-ec1a69aeeafb"
+      ]
+    },
+    "cfc5fbff-453b-48e2-96d9-ec1a69aeeafb": {
+      "id": "cfc5fbff-453b-48e2-96d9-ec1a69aeeafb",
+      "message": {
+        "id": "cfc5fbff-453b-48e2-96d9-ec1a69aeeafb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743703527.905702,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Your ex-wife moving the children from North Dakota to Oklahoma—and your subsequent move to be near them—could be grounds for a custody modification in North Dakota. Courts generally consider relocation a **material change in circumstances**, especially if it significantly impacts the parent-child relationship.\n\nKey factors a judge will consider:  \n- **Best Interests of the Child** – The court will assess whether modifying custody improves stability, emotional well-being, and access to both parents.  \n- **Impact of the Move** – If the relocation affects your ability to maintain a meaningful relationship with your children, the court may reconsider custody.  \n- **Your Effort to Stay Involved** – Moving to Oklahoma to stay close to your children could strengthen your case by showing your commitment.  \n- **Two-Year Rule Exception** – Since relocation can be a significant disruption, you may be able to request a modification even if two years haven’t passed since the last custody order.  \n\nYou’ll likely need to file a **Motion to Modify Custody** and present evidence that the move significantly affects your children's well-being and your parental rights. Consulting a **family law attorney** in North Dakota or Oklahoma would be wise to determine your best legal strategy. Would you like help finding legal resources?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "6462258a-3e9e-491e-bf94-c0596d7ae3ba",
+          "request_id": "92aa7e873c66e669-DEN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6462258a-3e9e-491e-bf94-c0596d7ae3ba",
+      "children": [
+        "e1904a24-23b8-4039-8d2d-7679ed1a3ef6"
+      ]
+    },
+    "e1904a24-23b8-4039-8d2d-7679ed1a3ef6": {
+      "id": "e1904a24-23b8-4039-8d2d-7679ed1a3ef6",
+      "message": {
+        "id": "e1904a24-23b8-4039-8d2d-7679ed1a3ef6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743703610.345582,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Would the modification be filed in ND or OK in that case?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "92aa808d5bc151f1-DEN",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cfc5fbff-453b-48e2-96d9-ec1a69aeeafb",
+      "children": [
+        "780b616b-e4e6-4922-9016-f6b9bcc49995"
+      ]
+    },
+    "780b616b-e4e6-4922-9016-f6b9bcc49995": {
+      "id": "780b616b-e4e6-4922-9016-f6b9bcc49995",
+      "message": {
+        "id": "780b616b-e4e6-4922-9016-f6b9bcc49995",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743703610.941198,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The state where you file for a custody modification depends on **jurisdiction**, which is governed by the **Uniform Child Custody Jurisdiction and Enforcement Act (UCCJEA)**. Here’s how it generally works:  \n\n1. **North Dakota Likely Retains Jurisdiction** – Since the original custody order was issued in North Dakota, that state usually keeps jurisdiction unless it determines it no longer has a significant connection to the child.  \n2. **Oklahoma Could Gain Jurisdiction** – If the children have lived in Oklahoma for **at least six months**, Oklahoma might become their new “home state” under the UCCJEA. However, North Dakota would still need to agree to transfer the case.  \n3. **Filing Process** – Typically, you would file in **North Dakota** unless Oklahoma has become the children’s home state and North Dakota agrees to transfer jurisdiction.  \n\nIf your ex-wife recently moved the children, North Dakota is likely still the proper place to file. However, if they’ve been in Oklahoma for over six months, you might need to request a transfer of jurisdiction or file there.  \n\nA **family law attorney** in either state can help determine the right approach. Would you like assistance finding legal resources in ND or OK?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "e1904a24-23b8-4039-8d2d-7679ed1a3ef6",
+          "request_id": "92aa808d5bc151f1-DEN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e1904a24-23b8-4039-8d2d-7679ed1a3ef6",
+      "children": [
+        "b3a78fb6-eb1c-474e-b623-d8697d0cb206"
+      ]
+    },
+    "b3a78fb6-eb1c-474e-b623-d8697d0cb206": {
+      "id": "b3a78fb6-eb1c-474e-b623-d8697d0cb206",
+      "message": {
+        "id": "b3a78fb6-eb1c-474e-b623-d8697d0cb206",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743703673.83461,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "She hasn’t moved yet. Would I want to file before or after I move to OK?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "92aa821a19eb51f1-DEN",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "780b616b-e4e6-4922-9016-f6b9bcc49995",
+      "children": [
+        "7ffb5606-ae3f-4d3a-8206-2bd9c504fbf0"
+      ]
+    },
+    "7ffb5606-ae3f-4d3a-8206-2bd9c504fbf0": {
+      "id": "7ffb5606-ae3f-4d3a-8206-2bd9c504fbf0",
+      "message": {
+        "id": "7ffb5606-ae3f-4d3a-8206-2bd9c504fbf0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743703674.236908,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If your ex-wife hasn’t moved yet, filing **before** the move may be in your best interest. Here’s why:  \n\n1. **North Dakota Clearly Retains Jurisdiction** – Since the children still live in North Dakota, the court that issued the original custody order will have full authority over the case. If you wait until after the move, Oklahoma could become involved in jurisdiction disputes after six months.  \n2. **Preventing Relocation Without Court Approval** – If you believe the move is not in the children’s best interests, you could file a motion to modify custody and ask the court to prevent the relocation until custody is reviewed.  \n3. **Stronger Position for Modification** – Filing in North Dakota while still residing there may give you a stronger case, showing the court that your goal is to maintain stability for the children rather than simply following them to a new state.  \n\nIf you move to Oklahoma first, North Dakota still retains jurisdiction for a while, but you may weaken your argument if your ex-wife has already settled there with the kids.  \n\n### Suggested Next Steps:  \n- **Consult a family law attorney in North Dakota ASAP** to explore filing a **motion to modify custody** before the move.  \n- **Consider requesting a temporary order** to prevent the move until custody is resolved.  \n\nDo you want help finding legal resources in North Dakota?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "b3a78fb6-eb1c-474e-b623-d8697d0cb206",
+          "request_id": "92aa821a19eb51f1-DEN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b3a78fb6-eb1c-474e-b623-d8697d0cb206",
+      "children": [
+        "f001ab69-8483-48cc-8106-4e450bc67fb6"
+      ]
+    },
+    "f001ab69-8483-48cc-8106-4e450bc67fb6": {
+      "id": "f001ab69-8483-48cc-8106-4e450bc67fb6",
+      "message": {
+        "id": "f001ab69-8483-48cc-8106-4e450bc67fb6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743703809.202402,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The divorce agreement allowed for the move in exchange for significantly less child support. Does that color the courts consideration? Would it be looked at as some sort of buyers remorse?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "92aa856b3d86e66f-DEN",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7ffb5606-ae3f-4d3a-8206-2bd9c504fbf0",
+      "children": [
+        "3938eb12-dcc3-4822-8dc3-957afe644c26"
+      ]
+    },
+    "3938eb12-dcc3-4822-8dc3-957afe644c26": {
+      "id": "3938eb12-dcc3-4822-8dc3-957afe644c26",
+      "message": {
+        "id": "3938eb12-dcc3-4822-8dc3-957afe644c26",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743703810.303128,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes, the fact that your divorce agreement **explicitly allowed for the move** in exchange for reduced child support could significantly impact how the court views your request for modification. Courts generally uphold agreements unless there is a **substantial change in circumstances** that was **unforeseen at the time of the agreement** and affects the children’s best interests.  \n\nHere’s how this might be considered:  \n\n1. **Agreement as a Binding Factor** – Since you agreed to the move as part of your divorce settlement, the court may see this as an informed decision. If you now want to modify custody based on that same move, the judge might question whether this is a form of **\"buyer’s remorse.\"**  \n2. **Change in Circumstances Argument** – If you can prove that the move is having **unexpected negative effects on the children** (e.g., worse schooling, instability, or a significant breakdown in your parent-child relationship), the court may consider modifying custody. However, simply regretting the agreement is **not enough** on its own.  \n3. **Your Move to Oklahoma** – If your primary argument is that you have now moved to Oklahoma and want a more equal parenting arrangement, the court may see this as a **predictable event** rather than an unforeseen change. However, if the children are struggling in Oklahoma or your ex is restricting your access despite your relocation, that could strengthen your case.  \n4. **Best Interests of the Child** – Ultimately, courts prioritize what benefits the children, not the parents. If your case is seen as a **parental dispute** rather than a child welfare issue, a judge may be less likely to modify custody.  \n\n### What You Can Do:  \n- **Gather Evidence of Any Negative Impact on the Children** – If the move is not going well for them, document it.  \n- **Demonstrate Your Continued Involvement** – Show that your move was to maintain a strong parental role, not just for convenience.  \n- **Consult a Family Law Attorney in North Dakota** – They can help craft an argument that focuses on the children’s well-being rather than just a change in your circumstances.  \n\nWould you like help finding legal guidance on this?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "f001ab69-8483-48cc-8106-4e450bc67fb6",
+          "request_id": "92aa856b3d86e66f-DEN",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f001ab69-8483-48cc-8106-4e450bc67fb6",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "3938eb12-dcc3-4822-8dc3-957afe644c26",
+  "plugin_ids": null,
+  "conversation_id": "67eecd8a-658c-800d-8b07-128aa6b21ac1",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "id": "67eecd8a-658c-800d-8b07-128aa6b21ac1"
+}
